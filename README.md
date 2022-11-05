@@ -14,6 +14,6 @@
 
 ## Ubuntu
 
-```
+```shell
 sudo apt-get install snapd
 ```
