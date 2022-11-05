@@ -1,5 +1,5 @@
 # Project
-
+## AI
 - [생활코딩 머신러닝 이론편](https://opentutorials.org/course/4548)
   - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) 
   - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8)
@@ -11,14 +11,9 @@
   - [Tensorflow 101](https://opentutorials.org/module/4966) ([예제 코드](https://github.com/blackdew/tensorflow1))
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([에제 코드](https://github.com/blackdew/ml-tensorflow))
 
-
 ## Ubuntu
+### how to install vscode in Linux
 
-```sh
-sudo apt-get install snapd
 ```
-
-
-```python
-print('hello')
+sudo apt-get install snapd
 ```
