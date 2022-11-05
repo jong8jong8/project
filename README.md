@@ -12,11 +12,17 @@
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([에제 코드](https://github.com/blackdew/ml-tensorflow))
 
 ## Ubuntu
-### how to install vscode in Linux
+### open terminal
 
+### install vscode in Linux
+
+``` 
+sudo apt install snapd 
 ```
-sudo apt-get install snapd
 ```
-
-
-jkjkjkjkjkjkjkjkj `printf("hello/n")`
+sudo snap install code --classic
+```
+### remove vscode in Linux
+```
+sudo snap remove code
+```
