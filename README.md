@@ -32,7 +32,7 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
-### Install Vscode in Linux
+### Install VScode in Linux
 
 ``` 
 sudo apt install snapd 
@@ -40,7 +40,7 @@ sudo apt install snapd
 ```
 sudo snap install code --classic
 ```
-### Remove Vscode in Linux
+### Remove VScode in Linux
 ```
 sudo snap remove code
 ```
