@@ -12,10 +12,10 @@
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([에제 코드](https://github.com/blackdew/ml-tensorflow))
 
 ## Ubuntu
-### open terminal
+### Open terminal
 (Ctrl + alt + T)
 
-### install Brave in Linux
+### Install Brave in Linux
 ```
 sudo apt install apt-transport-https curl;
 ```
@@ -32,7 +32,7 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
-### install vscode in Linux
+### Install Vscode in Linux
 
 ``` 
 sudo apt install snapd 
@@ -40,7 +40,7 @@ sudo apt install snapd
 ```
 sudo snap install code --classic
 ```
-### remove vscode in Linux
+### Remove Vscode in Linux
 ```
 sudo snap remove code
 ```
