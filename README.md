@@ -13,6 +13,7 @@
 
 ## Ubuntu
 ### open terminal
+(Ctrl + alt + T)
 
 ### install vscode in Linux
 
