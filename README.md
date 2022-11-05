@@ -13,7 +13,7 @@
 
 ## Ubuntu
 ### Open terminal
-(Ctrl + alt + T)
+`Ctrl` + `Alt` + `T`
 
 ### Install Brave in Linux
 ```
