@@ -10,3 +10,10 @@
   - [Google TensorFlow](https://www.tensorflow.org/)
   - [Tensorflow 101](https://opentutorials.org/module/4966) ([예제 코드](https://github.com/blackdew/tensorflow1))
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([에제 코드](https://github.com/blackdew/ml-tensorflow))
+
+
+## Ubuntu
+
+```
+sudo apt-get install snapd
+```
