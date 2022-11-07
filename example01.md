@@ -6,4 +6,3 @@
 - [조코딩 HTML 기초 강좌 2강](https://www.youtube.com/watch?v=LnGgndT308Q)
 - [조코딩 HTML 기초 강좌 3강](https://www.youtube.com/watch?v=xGkftwkoJK4)
 
-
