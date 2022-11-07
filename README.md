@@ -2,7 +2,7 @@
 ## AI
 - [생활코딩 머신러닝 이론편](https://opentutorials.org/course/4548)
   - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) 
-  - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8) ([](./example01.md))
+  - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8) ([실습 예제 01](./example01.md))
   - [세상에서 가장 쉬운 인공지능 만들기 2탄](https://www.youtube.com/watch?v=9SwdGFzFb5Y)
   - [생활코딩 JavaScript - 웹 프로그래밍 참고용](https://opentutorials.org/course/743) 
   - [The Awesome Teachable Machine List](https://github.com/SashiDo/awesome-teachable-machine)
