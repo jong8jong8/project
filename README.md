@@ -43,3 +43,9 @@ sudo snap install code --classic
 ```
 sudo snap remove code
 ```
+
+### How to save console output to an image
+- Install **Imagemagick**
+```sh
+sudo apt install imagemagick
+```
