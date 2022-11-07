@@ -45,7 +45,11 @@ sudo snap remove code
 ```
 
 ### How to save console output to an image
-- Install **Imagemagick**
+- Install **ImageMagick**
 ```sh
 sudo apt install imagemagick
+```
+- Save to a PNG image (e.g., `tree`)
+```sh
+convert label:"$(tree)"  directory_image.png
 ```
