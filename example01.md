@@ -11,6 +11,7 @@
   - [Free CSS](https://www.free-css.com/free-css-templates)
 - [조코딩 HTML 기초 강좌 3강](https://www.youtube.com/watch?v=xGkftwkoJK4)
   - [Naver 웹마스터 도구](https://searchadvisor.naver.com/console/board) 
+  - [XML sitemap generator](https://www.xml-sitemaps.com/)
 - [MDN HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
 
 ## JavaScript 기초
