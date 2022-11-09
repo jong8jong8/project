@@ -1,5 +1,4 @@
-# 실습 예제 01
-
+# 실습 예제 01을 위한 기본 지식
 
 ## HTML 기초
 - [조코딩 HTML 기초 강좌 1강](https://www.youtube.com/watch?v=JMLBBv05ORw)
@@ -13,3 +12,6 @@
 ### JavaScript 기초
 - [생활코딩 JavaScript](https://opentutorials.org/course/743)
 - [MDN JavaScript](https://developer.mozilla.org/ko/docs/Web/JavaScript)
+
+
+# 실습 예제 01
