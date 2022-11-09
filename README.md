@@ -5,7 +5,7 @@
   - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) 
   - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8) 
   - [세상에서 가장 쉬운 인공지능 만들기 2탄](https://www.youtube.com/watch?v=9SwdGFzFb5Y) 
-    - [Teachable-Machine-AI-Fitness-Trainer](https://github.com/youtube-jocoding/Teachable-Machine-AI-Fitness-Trainer) 
+    - [Data](https://github.com/youtube-jocoding/Teachable-Machine-AI-Fitness-Trainer) 
   - [웹캠 없이 Teachable Machine으로 나와 닮은 동물상 찾기](https://youtu.be/OI3fZJHQF8Y)
   - [The Awesome Teachable Machine List](https://github.com/SashiDo/awesome-teachable-machine)
 - [생활코딩 머신러닝 실습편 with 파이썬 텐서플로](https://elibrary.kyobobook.co.kr/dig/elb/elibrary)
