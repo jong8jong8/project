@@ -1,4 +1,4 @@
-# 실습 예제 01을 위한 기본 지식
+# 기본 지식
 
 ## 웹하드 
 - [TeraBox](https://www.terabox.com/)
