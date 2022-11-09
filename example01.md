@@ -1,5 +1,8 @@
 # 실습 예제 01을 위한 기본 지식
 
+## 웹하드 
+- [TeraBox](https://www.terabox.com/)
+
 ## HTML 기초
 - [조코딩 HTML 기초 강좌 1강](https://www.youtube.com/watch?v=JMLBBv05ORw)
   - [생활코딩](https://opentutorials.org/course/1) 
@@ -9,7 +12,7 @@
 - [조코딩 HTML 기초 강좌 3강](https://www.youtube.com/watch?v=xGkftwkoJK4)
 - [MDN HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
 
-### JavaScript 기초
+## JavaScript 기초
 - [생활코딩 JavaScript](https://opentutorials.org/course/743)
 - [MDN JavaScript](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 
