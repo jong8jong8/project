@@ -6,6 +6,7 @@
   - [생활코딩](https://opentutorials.org/course/1) 
 - [조코딩 HTML 기초 강좌 2강](https://www.youtube.com/watch?v=LnGgndT308Q)
   - [Netlify](https://www.netlify.com/) 
+  - [Free CSS](https://www.free-css.com/free-css-templates)
 - [조코딩 HTML 기초 강좌 3강](https://www.youtube.com/watch?v=xGkftwkoJK4)
 - [MDN HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
 
