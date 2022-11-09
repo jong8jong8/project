@@ -8,8 +8,8 @@
   - [The Awesome Teachable Machine List](https://github.com/SashiDo/awesome-teachable-machine)
 - [생활코딩 머신러닝 실습편 with 파이썬 텐서플로](https://elibrary.kyobobook.co.kr/dig/elb/elibrary)
   - [Google TensorFlow](https://www.tensorflow.org/) ([Github](https://github.com/tensorflow)) 
-  - [Tensorflow 101](https://opentutorials.org/module/4966) ([예제 코드](https://github.com/blackdew/tensorflow1))
-  - [Tensorflow 102](https://opentutorials.org/module/5268) ([에제 코드](https://github.com/blackdew/ml-tensorflow))
+  - [Tensorflow 101](https://opentutorials.org/module/4966) ([Github](https://github.com/blackdew/tensorflow1))
+  - [Tensorflow 102](https://opentutorials.org/module/5268) ([Github](https://github.com/blackdew/ml-tensorflow))
 
 ## Ubuntu
 ### Open terminal
