@@ -2,7 +2,7 @@
 
 ## AI
 - [생활코딩 머신러닝 이론편](https://opentutorials.org/course/4548)
-  - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) ![]([https://github.com/googlecreativelab/teachablemachine-community](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw3Uu3M74djugHtYY1DZnta2&ust=1668080005606000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCnyLOAofsCFQAAAAAdAAAAABAE))
+  - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) ![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw3Uu3M74djugHtYY1DZnta2&ust=1668080005606000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCnyLOAofsCFQAAAAAdAAAAABAE)
   - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8) 
   - [세상에서 가장 쉬운 인공지능 만들기 2탄](https://www.youtube.com/watch?v=9SwdGFzFb5Y)  
   - [웹캠 없이 Teachable Machine으로 나와 닮은 동물상 찾기](https://youtu.be/OI3fZJHQF8Y)
