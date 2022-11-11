@@ -21,6 +21,9 @@
 
 ### Install Brave in Linux
 ```
+sudo apt install curl
+```
+```
 sudo apt install apt-transport-https curl;
 ```
 ```
