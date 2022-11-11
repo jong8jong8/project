@@ -56,5 +56,8 @@ sudo apt install imagemagick
 ```
 - Save to a PNG image (e.g., `tree`)
 ```sh
+sudo apt install tree
+```
+```sh
 convert label:"$(tree)"  directory_image.png
 ```
