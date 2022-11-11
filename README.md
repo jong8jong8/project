@@ -12,7 +12,7 @@
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([Github](https://github.com/blackdew/ml-tensorflow))
 
 
-안녕하세요
+
 
 
 ## Ubuntu
