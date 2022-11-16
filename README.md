@@ -99,7 +99,7 @@ sudo lshw -c display # check display
 ```
 
 ```sh
-sudo apt install ubuntu-drivers-common # you can skip if the following works
+sudo apt install ubuntu-drivers-common 
 ```
 
 ```sh
@@ -107,7 +107,7 @@ sudo ubuntu-drivers devices
 ```
 
 ```sh
-sudo ubuntu-drivers autoinstall # this is the only one you might need!
+sudo ubuntu-drivers autoinstall
 ```
 
 ```sh
