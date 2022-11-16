@@ -1,17 +1,4 @@
-# AI Web App Project
-
-## Technology Stack
-
-### Frontend
-- Ubuntu
-- HTML
-- CSS
-- JavaScript
-
-### Backend
-- Unknown
-
-## AI
+# AI Project
 - [생활코딩 머신러닝 이론편](https://opentutorials.org/course/4548)
   - [Google Teachable Machine](https://teachablemachine.withgoogle.com/) ([Github](https://github.com/googlecreativelab/teachablemachine-community))
   - [세상에서 가장 쉬운 인공지능 만들기 1탄](https://www.youtube.com/watch?v=USQGTW34lO8) 
@@ -23,8 +10,6 @@
   - [Tensorflow 102](https://opentutorials.org/module/5268) ([Github](https://github.com/blackdew/ml-tensorflow))
 
 
-## Markdown
-- [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 ## Ubuntu
@@ -103,24 +88,3 @@ cmatrix -s
 ```
 
 
-### How to install Nvidia driver
-
-```sh
-sudo lshw -c display # check display 
-```
-
-```sh
-sudo apt install ubuntu-drivers-common 
-```
-
-```sh
-sudo ubuntu-drivers devices
-```
-
-```sh
-sudo ubuntu-drivers autoinstall
-```
-
-```sh
-sudo reboot
-```
