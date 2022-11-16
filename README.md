@@ -5,4 +5,4 @@
 - [TeraBox](https://www.terabox.com/)
 - [MDN Web Docs](https://developer.mozilla.org/ko/)
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
-- [TensorFlow](https://www.tensorflow.org/)
+- [TensorFlow.js](https://www.tensorflow.org/js/)
