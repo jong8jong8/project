@@ -91,3 +91,17 @@ sudo apt install cmatrix
 cmatrix -s
 ```
 
+
+### How to install Nvidia driver
+
+```sh
+sudo lshw -c display
+```
+
+```sh
+sudo ubuntu-drivers devices
+```
+
+```sh
+sudo ubuntu-drivers autoinstall # this is the only one!
+```
