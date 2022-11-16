@@ -1,4 +1,15 @@
-# 인공지능 프로젝트
+# AI Web App Project
+
+## Technology Stack
+
+### Frontend
+- Ubuntu
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Unknown
 
 ## AI
 - [생활코딩 머신러닝 이론편](https://opentutorials.org/course/4548)
