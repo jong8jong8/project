@@ -12,5 +12,3 @@
 # AI Practice
 - [ ] Object Classification
 
-# AI Project Idea
-- [ ] AI for Healthcare
