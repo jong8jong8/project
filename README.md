@@ -10,6 +10,6 @@
 - [ml5.js](https://ml5js.org/)
 
 # Project Practice
-- [x]물테 인식
+- [x] Object Classification
 
 # Project Idea
