@@ -13,4 +13,4 @@
 - [ ] Object Classification
 
 # AI Project Idea
-- [] AI for Healthcare
+- [ ] AI for Healthcare
