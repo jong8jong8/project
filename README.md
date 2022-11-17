@@ -9,7 +9,7 @@
 - [p5.js](https://p5js.org/)
 - [ml5.js](https://ml5js.org/)
 
-# Project Practice
-- [x] Object Classification
+# AI Practice
+- [] Object Classification
 
 # Project Idea
