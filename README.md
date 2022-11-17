@@ -12,4 +12,4 @@
 # AI Practice
 - [ ] Object Classification
 
-# Project Idea
+# AI Project Idea
