@@ -10,6 +10,6 @@
 - [ml5.js](https://ml5js.org/)
 
 # Project Practice
-- [ㅌ]물테 인식
+- [x]물테 인식
 
 # Project Idea
