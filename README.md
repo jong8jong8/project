@@ -10,6 +10,6 @@
 - [ml5.js](https://ml5js.org/)
 
 # AI Practice
-- [] Object Classification
+- [ ] Object Classification
 
 # Project Idea
