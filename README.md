@@ -1,6 +1,6 @@
 # AI Project
 
-- [Ubuntu tutorial](./ubuntu.md)
+- [Ubuntu tutorial](./ubuntu_tutorial.md)
 - [Netlify](https://www.netlify.com/)
 - [TeraBox](https://www.terabox.com/)
 - [생활코딩](https://opentutorials.org/course/1)
