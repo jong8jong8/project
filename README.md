@@ -1,6 +1,6 @@
 # AI Background
-- [Ubuntu](./ubuntu.md)
-- [Git](./git.md)
+- [Ubuntu](./background/ubuntu.md)
+- [Git](./background/git.md)
 - [MDN Web Docs](https://developer.mozilla.org/ko/)
 - [Netlify](https://www.netlify.com/)
 - [TeraBox](https://www.terabox.com/)
