@@ -9,9 +9,9 @@
 - [ml5.js](https://ml5js.org/)
 
 
-# AI Project - 지한서
+# 지한서 AI Project
 - [ ] 미정  
 
-# AI Project - 임준서
+# 임준서 AI Project
 - [ ] 미정  
 
