@@ -1,4 +1,4 @@
-# Ubuntu Tutorial
+# Ubuntu
 
 ### Open terminal
 
