@@ -8,9 +8,4 @@
 - [p5.js](https://p5js.org/)
 - [ml5.js](https://ml5js.org/)
 
-
-# AI Tutorial
-- [ ] [Getting Started](./ai-tutorial/getting-started.md)
-- [ ] [Hello ml5.js](./ai-tutorial/hello-ml5-js.md)
-
 # AI Project
