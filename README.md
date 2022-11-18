@@ -9,6 +9,7 @@
 - [ml5.js](https://ml5js.org/)
 
 
-# AI Project
-- [ ] Object Classification
+# AI Tutorial
+- [ ] [Getting Started](./ai-tutorial/getting_started.md)
 
+# AI Project
