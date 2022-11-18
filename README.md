@@ -1,5 +1,6 @@
 # AI Background
 - [Ubuntu tutorial](./ubuntu_tutorial.md)
+- [MDN Web Docs](https://developer.mozilla.org/ko/)
 - [Netlify](https://www.netlify.com/)
 - [TeraBox](https://www.terabox.com/)
 - [생활코딩](https://opentutorials.org/course/1)
