@@ -8,4 +8,10 @@
 - [p5.js](https://p5js.org/)
 - [ml5.js](https://ml5js.org/)
 
-# AI Project
+
+# AI Project - 지한서
+- [ ] 미정  
+
+# AI Project - 임준서
+- [ ] 미정  
+
