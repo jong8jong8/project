@@ -10,6 +10,7 @@
 
 
 # AI Tutorial
-- [ ] [Getting Started](./ai-tutorial/getting_started.md)
+- [ ] [Getting Started](./ai-tutorial/getting-started.md)
+- [ ] [Hello ml5.js](./ai-tutorial/hello-ml5-js.md)
 
 # AI Project
