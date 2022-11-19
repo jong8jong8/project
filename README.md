@@ -4,9 +4,9 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
+- [p5.js](./background/p5.md)
 - [Teachable Machine](./background/teachable.md)
 - [TensorFlow.js](./background/tensorflowjs.md)
-- [p5.js](./background/p5.md)
 - [ml5.js](./background/ml5.md)
 
 
