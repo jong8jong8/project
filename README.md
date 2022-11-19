@@ -11,7 +11,7 @@
 
 
 # AI Project idea
-- [ ] :teacher: The squatting T-Rex game 
+- [ ] The squatting T-Rex game 
 
 # AI Project
 ## [지한서](./han-seo/project.md) 
