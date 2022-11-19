@@ -8,6 +8,5 @@ sudo apt install git
 
 
 ### Github sign-in without passwords using `SSH`
-
-### Github repository initialization
-- Create a new repository in Github 
+- Create a new repository in Github (e.g., `Test`)
+- Copy the SSH file (e.g., `git@github.com:jong8jong8/Test.git`)
