@@ -26,15 +26,17 @@ cat id_rsa.pub  # public key
 - Copy the contents for Github setting
 - At Github, go to `SSH and GPG keys` and add the public key
 
---- 
+
+
+### Sync a Github repository with my local directory
 
 - At Github, create a new repository in Github (e.g., `Test`)
-- Copy the SSH file (e.g., `git@github.com:jong8jong8/Test.git`)
-- At your local machine, create the same named directory and move to it
+- Copy the `SSH` file (e.g., `git@github.com:jong8jong8/Test.git`)
+- At your local machine, go to a directory under which `Test` will be cloned
 
 ```sh
-mkdir Test
-cd Test
+cd ~/  # go to my home directory
+git clone git@github.com:jong8jong8/Test.git Test
 ```
 
 
