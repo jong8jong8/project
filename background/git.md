@@ -35,4 +35,19 @@ cd ~/  # go to my home directory
 git clone git@github.com:jong8jong8/Test.git Test
 ```
 
+### Push the work done at my local machine to Github
+
+- Create `index.html` at the directory `Test`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Greetings!</title>
+</head>
+<body>
+    <p>Hello Github.</p>
+</body>
+</html>
+```
 
