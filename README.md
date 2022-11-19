@@ -12,7 +12,7 @@
 
 
 
-# [지한서 AI Project](./han-seo/project.md)
+# [지한서](./han-seo/project.md) AI Project
 - [ ] 미정  
   - [ ] 부프로젝트 1
   - [ ] 부프로젝트 2
