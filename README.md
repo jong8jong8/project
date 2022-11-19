@@ -11,13 +11,13 @@
 - [ml5.js](https://ml5js.org/)
 
 
-
-# [지한서](./han-seo/project.md) AI Project
+# AI Project
+## [지한서](./han-seo/project.md) 
 - [ ] 미정  
   - [ ] 부프로젝트 1
   - [ ] 부프로젝트 2
 
-# 임준서 AI Project
+## [임준서](./joon-seo/project.md)
 - [ ] 미정  
   - [ ] 부프로젝트 1
   - [ ] 부프로젝트 2
