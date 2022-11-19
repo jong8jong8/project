@@ -12,5 +12,7 @@ sudo apt install git
 - Copy the SSH file (e.g., `git@github.com:jong8jong8/Test.git`)
 - At your local machine, do the followings
 ```sh
+mkdir Test  # make the same named directory at your local machine
+cd Test  # move to the dicectory
 ssh-keygen
 ```
