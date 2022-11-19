@@ -23,7 +23,7 @@ cat id_rsa
 cat id_rsa.pub  # copy the contents for Github setting
 ```
 
-- At Github, go to `Settings` :arrow_right: `SSH and GPG keys` 
+- At Github, go to `Settings` :arrow_right: `SSH and GPG keys` menu
 
 --- 
 
