@@ -5,7 +5,7 @@
 - [Git](./background/git.md)
 - [Web App](./background/webapp.md)
 - [Teachable Machine](./background/teachable.md)
-- [TensorFlow.js](https://www.tensorflow.org/js/)
+- [TensorFlow.js](./background/tensorflowjs.md)
 - [p5.js](https://p5js.org/)
 - [ml5.js](https://ml5js.org/)
 
