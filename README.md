@@ -13,8 +13,6 @@
 # AI Project idea
 - [ ] The squatting T-Rex game 
 
----
-
 # AI Project
 ## [지한서](./han-seo/project.md) 
 - [ ] 미정  
