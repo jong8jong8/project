@@ -3,11 +3,11 @@
 - [Netlify](https://www.netlify.com/)
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [Web App](./background/webapp.md)
+- [Web](./background/web.md)
 - [Teachable Machine](./background/teachable.md)
 - [TensorFlow.js](./background/tensorflowjs.md)
-- [p5.js](https://p5js.org/)
-- [ml5.js](https://ml5js.org/)
+- [p5.js](./background/p5.md)
+- [ml5.js](./background/ml5.md)
 
 
 # AI Project
