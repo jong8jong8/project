@@ -11,7 +11,7 @@
 
 
 # AI Project idea
-- [ ] The squatting T-Rex game 
+- [ ] The squatting T-rex game 
 - [ ] 미정
 - [ ] 미정
 
