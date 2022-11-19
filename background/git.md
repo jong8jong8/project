@@ -19,11 +19,12 @@ ssh-keygen
 ```sh
 cd ~/.ssh        
 ls -al
-cat id_rsa      
-cat id_rsa.pub  # copy the contents for Github setting
+cat id_rsa      # private key
+cat id_rsa.pub  # ppublic key 
 ```
 
-- At Github, go to `Settings` :arrow_right: `SSH and GPG keys` menu
+- Copy the contents for Github setting
+- At Github, go to `SSH and GPG keys` and add the public key
 
 --- 
 
