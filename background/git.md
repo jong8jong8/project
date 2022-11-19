@@ -17,10 +17,10 @@ ssh-keygen
 - Check the two files exist (`id_rsa` and `id_rsa.pub`)
 
 ```sh
-cd ~/.ssh
+cd ~/.ssh        
 ls -al
-cat id_rsa      # private key
-cat id_rsa.pub  # public key
+cat id_rsa      
+cat id_rsa.pub  
 ```
 
 
