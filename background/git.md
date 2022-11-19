@@ -20,7 +20,7 @@ ssh-keygen
 cd ~/.ssh        
 ls -al
 cat id_rsa      # private key
-cat id_rsa.pub  # ppublic key 
+cat id_rsa.pub  # public key 
 ```
 
 - Copy the contents for Github setting
