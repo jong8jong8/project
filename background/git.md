@@ -19,6 +19,8 @@ ssh-keygen
 ```sh
 cd ~/.ssh
 ls -al
+cat id_rsa      # private key
+cat id_rsa.pub  # public key
 ```
 
 
