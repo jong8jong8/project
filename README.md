@@ -1,8 +1,8 @@
 # AI Background
 - [TeraBox](https://www.terabox.com/)
+- [Netlify](https://www.netlify.com/)
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [Netlify](https://www.netlify.com/)
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
 - [TensorFlow.js](https://www.tensorflow.org/js/)
 - [MDN Web Docs](https://developer.mozilla.org/ko/)
