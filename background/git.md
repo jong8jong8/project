@@ -9,21 +9,14 @@ sudo apt install git
 
 ### Github sign-in without passwords using `SSH`
 
-- See [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-- Generate Key
-
-```sh
-ssh-keygen
-```
-
-- Check the two files exist (`id_rsa` and `id_rsa.pub`)
+- [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- Check the two files exist (`id_ed25519` and `id_ed25519.pub`)
 
 ```sh
 cd ~/.ssh        
 ls -al
-cat id_rsa      # private key
-cat id_rsa.pub  # public key 
+cat id_ed25519      # private key
+cat id_ed25519.pub  # public key 
 ```
 
 - Copy the contents for Github setting
