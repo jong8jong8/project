@@ -50,4 +50,11 @@ git clone git@github.com:jong8jong8/Test.git Test
 </body>
 </html>
 ```
+- Push to Github
 
+```sh
+git add index.html
+git commit -m "index.html is created"
+git push
+```
+- Check at Github
