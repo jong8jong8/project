@@ -2,10 +2,8 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
-- [TypeScript](./background/typescript.md)
 - [Teachable Machine](./background/teachable.md)
 - [TensorFlow.js](./background/tensorflowjs.md)
-- [freeCodeCamp](https://www.freecodecamp.org/)
 - [생활코딩](https://opentutorials.org/course/1)
 
 
