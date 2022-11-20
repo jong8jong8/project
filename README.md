@@ -7,7 +7,6 @@
 - [ml5.js](./background/ml5js.md)
 
 # AI Project idea
-- The squatting T-rex game 
 - 미정
 - 미정
 
