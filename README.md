@@ -1,6 +1,4 @@
 # AI Background
-- [TeraBox](https://www.terabox.com/)
-- [Netlify](https://www.netlify.com/)
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
