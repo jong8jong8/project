@@ -1,11 +1,10 @@
 # AI Background
+- [생활코딩](https://opentutorials.org/course/1)
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
 - [Teachable Machine](./background/teachable.md)
 - [ml5.js](./background/ml5js.md)
-- [생활코딩](https://opentutorials.org/course/1)
-
 
 # AI Project idea
 - The squatting T-rex game 
