@@ -3,7 +3,7 @@
 - [Git](./background/git.md)
 - [Web](./background/web.md)
 - [Teachable Machine](./background/teachable.md)
-- [TensorFlow.js](./background/tensorflowjs.md)
+- [ml5.js](./background/ml5js.md)
 - [생활코딩](https://opentutorials.org/course/1)
 
 
