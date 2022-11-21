@@ -10,7 +10,6 @@ sudo apt install git
 ### Github sign-in without passwords using `SSH`
 
 - [생활코딩 - 암호학 (Cryptography)](https://opentutorials.org/module/5250)
-- [Wikipedia - Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
 - [Github Docs - Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - Check the two files exist (`id_ed25519` and `id_ed25519.pub`)
 
