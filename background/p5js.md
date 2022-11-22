@@ -21,11 +21,11 @@
 - `sketch.js`
 
 ```javascript
-function setup() {
+function setup() {  // only once
   createCanvas(400, 400);
 }
 
-function draw() {
+function draw() {  // infinite loop
   if (mouseIsPressed) {
     fill(0);
   } else {
