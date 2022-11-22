@@ -1,7 +1,6 @@
 # AI Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [생뢀코딩 - 머신러닝1](https://opentutorials.org/course/4548)
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
 - [p5.js](./background/p5js.md)
 - [ml5.js](./background/ml5.md)
