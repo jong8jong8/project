@@ -40,7 +40,7 @@ function draw() {  // infinite loop
 ```
 
 
-# p5.js Excersice
+## p5.js Excersice
 - [Image Classification](./p5ex/image_classification.md)
 
 
