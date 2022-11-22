@@ -41,4 +41,4 @@ function draw() {
 ```
 
 ## ml5.js Excersice
-- [Image Classification](./ml5ex/image_classification.md)
+- [Image Classification](./ml5/ex01/image_classification.md)
