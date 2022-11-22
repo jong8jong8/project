@@ -37,4 +37,5 @@ function draw() {
 }
 ```
 
-### Image Classification
+### Project
+- [Image Classification](./image_classification.md)
