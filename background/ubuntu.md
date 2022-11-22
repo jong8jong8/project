@@ -94,6 +94,3 @@ sudo ubuntu-drivers autoinstall
 ```sh
 sudo reboot
 ```
-
-### [How to install Python 3.11 on Ubuntu 22.04 LTS](https://www.the-analytics.club/python-3-11-ubuntu)
-- [노마드 코더 - 아직도 파이썬을 이렇게 쓰고 있다구?](https://youtu.be/fJeGAx27-vU) 
