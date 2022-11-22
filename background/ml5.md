@@ -1,5 +1,8 @@
 # [ml5.js](https://ml5js.org/)
 
+
+## Basic Template
+
 - `index.html`
 
 ```html
@@ -37,5 +40,5 @@ function draw() {
 }
 ```
 
-# ml5.js Excersice
+## ml5.js Excersice
 - [Image Classification](./ml5ex/image_classification.md)
