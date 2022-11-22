@@ -13,6 +13,7 @@
 
 ### JavaScript
 - [생활코딩 - WEB2 - JavaScript](https://opentutorials.org/course/3085) ([코드](https://github.com/web-n/web2_javascript))
+- [JavaScript에서 파일 읽기](https://web.dev/read-files/)
 
 
 ### Node.js
