@@ -3,7 +3,7 @@
 
 - [MDN](https://developer.mozilla.org/en-US/)
 
-### HTML
+### HTML & Internet
 - [생활코딩 - WEB1](https://opentutorials.org/course/3084)
 
 
