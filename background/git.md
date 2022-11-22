@@ -6,6 +6,7 @@
 sudo apt install git
 ```
 
+- [생활코딩 - GIT1](https://opentutorials.org/course/3837)
 
 ### Github sign-in without passwords using `SSH`
 
