@@ -3,8 +3,8 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Web](./background/web.md)
 - [Git](./background/git.md)
-- [p5.js](./background/p5js.md)
 - [Teachable Machine](./background/teachable.md)
+- [p5.js](./background/p5js.md)
 - [ml5.js](./background/ml5.md)
 
 # AI Project idea
