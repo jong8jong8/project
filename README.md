@@ -1,7 +1,7 @@
 # AI Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [Teachable Machine](https://teachablemachine.withgoogle.com/)
+- [Teachable Machine](./background/teachable.md)
 - [p5.js](./background/p5js.md)
 - [ml5.js](./background/ml5.md)
 
