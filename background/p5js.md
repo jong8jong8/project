@@ -18,7 +18,7 @@
 
 - `sketch.js`
 
-```html
+```javascript
 function setup() {
   createCanvas(400, 400);
 }
