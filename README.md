@@ -4,8 +4,8 @@
 - [Git](./background/git.md)
 - [Web](./background/web.md)
 - [Teachable Machine](./background/teachable.md)
-- [ml5.js](./background/ml5.md)
 - [TensorFlow.js](./background/tensorflowjs.md)
+- [ml5.js](./background/ml5.md)
 
 # AI Project idea
 - 미정
