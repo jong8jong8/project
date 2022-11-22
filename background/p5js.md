@@ -41,6 +41,6 @@ function draw() {  // infinite loop
 
 
 ## p5.js Excersice
-- [Uploading Media Files](./p5ex/upload.md)
+- [Uploading Media Files](./p5/ex00/upload.md)
 
 
