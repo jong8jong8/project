@@ -1,8 +1,8 @@
 # AI Background
 - [생활코딩](https://opentutorials.org/course/1)
 - [Ubuntu](./background/ubuntu.md)
-- [Git](./background/git.md)
 - [Web](./background/web.md)
+- [Git](./background/git.md)
 - [p5.js](./background/p5js.md)
 - [Teachable Machine](./background/teachable.md)
 - [ml5.js](./background/ml5.md)
