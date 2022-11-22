@@ -59,3 +59,8 @@ git commit -m "index.html is created"
 git push
 ```
 - Check at Github
+
+
+### Github Page Setting
+- [생활코딩 - 인터넷을 여는 열쇠 : 서버와 클라이언트](https://opentutorials.org/course/3084)
+- [생활코딩 - 웹호스팅 github pages (2022년 수정판)](https://opentutorials.org/course/3084/18891)
