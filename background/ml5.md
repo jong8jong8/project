@@ -1,6 +1,6 @@
 # [ml5.js](https://ml5js.org/)
 
-- `index.html'
+- `index.html`
 
 ```html
 <!DOCTYPE html>
