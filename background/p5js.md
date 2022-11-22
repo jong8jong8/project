@@ -1,7 +1,7 @@
 # [p5.js](https://p5js.org/)
 
-- [생활코딩 - p5.js](https://opentutorials.org/course/4659)
 
+- [생활코딩 - p5.js](https://opentutorials.org/course/4659)
 
 - `index.html`
 
@@ -9,11 +9,9 @@
 <html>
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
   </head>
   <body>
-    <main>
-    </main>
+    <script src="sketch.js"></script>
   </body>
 </html>
 ```
