@@ -34,3 +34,9 @@ function draw() {  // infinite loop
   ellipse(mouseX, mouseY, 80, 80);
 }
 ```
+
+
+# p5.js Excersice
+- [Image Classification](./p5ex/image_classification.md)
+
+
