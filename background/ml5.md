@@ -4,7 +4,7 @@
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Getting Started with ml5.js</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,20 +16,23 @@
   </head>
 
   <body>
-    <script>
-      // Your code will go here
-      // open up your console - if everything loaded properly you should see the latest ml5 version
-      console.log('ml5 version:', ml5.version);
-
-      function setup() {
-        createCanvas(400, 400);
-      }
-
-      function draw() {
-        background(200);
-      }
-    </script>
+    <script src="sketch.js"></script>
   </body>
 </html>
+```
 
+- `sketch.js`
+
+```javascript
+// Your code will go here
+// open up your console - if everything loaded properly you should see the latest ml5 version
+console.log('ml5 version:', ml5.version);
+
+function setup() {
+createCanvas(400, 400);
+}
+
+function draw() {
+background(200);
+}
 ```
