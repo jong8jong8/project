@@ -3,7 +3,6 @@
 - [Git](./background/git.md)
 - [Web](./background/web.md)
 - [Teachable Machine](./background/teachable.md)
-- [TensorFlow.js](./background/tfjs.md)
 
 # AI Project idea
 - 미정
