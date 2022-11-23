@@ -1,9 +1,7 @@
 # Web
 
 - [MDN](https://developer.mozilla.org/en-US/)
-
-### Document Object Model (DOM)
-![DOM](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1920px-DOM-model.svg.png)
+- [Document Object Model (DOM)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1920px-DOM-model.svg.png)
 
 
 
