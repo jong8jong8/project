@@ -2,7 +2,7 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
-- [Teachable Machine](./background/teachable.md)
+- [AI Library](./background/ailib.md)
 
 # AI Project idea
 - 미정
