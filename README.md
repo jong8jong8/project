@@ -4,20 +4,11 @@
 - [Web](./background/web.md)
 - [AI Library](./background/ailib.md)
 
-# AI Project idea
-- 미정
-- 미정
 
 # AI Project
-## [지한서](./han-seo/project.md) 
-- 미정  
-  - [ ] 부프로젝트 1
-  - [ ] 부프로젝트 2
+- [지한서](./han-seo/project.md) 
+- [임준서](./joon-seo/project.md)
 
-## [임준서](./joon-seo/project.md)
-- 미정  
-  - [ ] 부프로젝트 1
-  - [ ] 부프로젝트 2
 
 ---
 
