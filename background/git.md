@@ -59,6 +59,8 @@ git clone git@github.com:jong8jong8/Test.git Test
 ```sh
 git add index.html
 git commit -m "index.html is created"
+git config --global user.email "you@example.com"
+git config --global user.name "내 이름"
 git push
 ```
 - Check at Github
