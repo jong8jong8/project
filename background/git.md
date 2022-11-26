@@ -69,5 +69,7 @@ git push
 - Check at Github
 
 
+### Github Page
+
 ### Github to [Netlify](https://www.netlify.com/)
 - [생활코딩 - netlify.com 으로 웹호스팅 하기](https://www.youtube.com/watch?v=3FRv6Vga698&ab_channel=%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9)
