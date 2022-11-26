@@ -15,7 +15,8 @@ sudo apt install git
 - Check the two files exist (`id_ed25519` and `id_ed25519.pub`)
 
 ```sh
-ssh-keygen -t ed25519 -C "your_email@example.com"       
+cd ~/.ssh
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ls -al
 cat id_ed25519      # private key
 cat id_ed25519.pub  # public key 
