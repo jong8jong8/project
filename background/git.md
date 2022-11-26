@@ -23,7 +23,7 @@ cat id_ed25519      # private key
 cat id_ed25519.pub  # public key 
 ```
 
-- Copy the contents for Github setting
+- Copy the contents of `id_ed25519.pub` for Github setting
 - At Github, go to `SSH and GPG keys` and add the public key
 
 
