@@ -60,8 +60,8 @@ git clone git@github.com:jong8jong8/Test.git Test
 git add index.html
 git commit -m "index.html is created"
 
-#최초 실행시 해야함
-git config --global user.email "you@example.com"
+# 최초 실행시 해야함
+git config --global user.email "you@example.com"  
 git config --global user.name "내 이름"
 
 git push
