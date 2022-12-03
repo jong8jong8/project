@@ -1,7 +1,9 @@
-# Web
+# Web App
 - [DOM](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1920px-DOM-model.svg.png)
 - [MDN](https://developer.mozilla.org/en-US/)
 
+
+## Frontend (Client-side)
 
 ### HTML 
 - [생활코딩 - WEB1](https://opentutorials.org/course/3084) ([코드](https://github.com/web-n/web1_html_internet))
@@ -14,3 +16,5 @@
 ### JavaScript
 - [생활코딩 - WEB2 - JavaScript](https://opentutorials.org/course/3085) ([코드](https://github.com/web-n/web2_javascript))
 
+
+## Backend (Server-side)
