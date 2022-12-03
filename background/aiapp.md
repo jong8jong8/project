@@ -3,15 +3,8 @@
 
 
 
-<!--
-## [Teachable Machine](https://teachablemachine.withgoogle.com/)
-- [Image Classification](./tm1.md)
-- [Sound Classification](./tm2.md)
-- [Pose Classification](./tm3.md)
--->
 
+- [Teachable Machine](https://teachablemachine.withgoogle.com/)
 - [ML5.js](./ml5.md)
 
-<!--
-## [TensorFlow.js](https://www.tensorflow.org/js)
--->
+- [TensorFlow.js](https://www.tensorflow.org/js)
