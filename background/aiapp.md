@@ -7,5 +7,5 @@
 - [Kaggle](https://www.kaggle.com/)
 
 
-# Practice
+# AI Practice
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
