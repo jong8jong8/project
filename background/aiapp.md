@@ -3,5 +3,5 @@
 
 - [ML5.js](./ml5.md)
 - [Teachable Machine](./tm.md)
-- [TensorFlow.js](https://www.tensorflow.org/js)
+- [TensorFlow.js](./tfjs.md)
 
