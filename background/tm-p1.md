@@ -1,1 +1,1 @@
-# Project 1
+# TM - Project 1 (Image Classirication)
