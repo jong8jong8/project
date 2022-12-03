@@ -18,6 +18,4 @@
 - 
 
 
-## Backend (Server-side)
-### Django (Python)
-### Express (Node.js)
+### P5.js
