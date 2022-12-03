@@ -4,18 +4,23 @@
 - [생활코딩](https://opentutorials.org/course/1)
 
 
-## Frontend (Client-side)
+# Frontend (Client-side)
 
-### HTML 
-- 
-
-
-### CSS
-- 
+- HTML 
+ 
 
 
-### JavaScript
-- 
+- CSS
+ 
 
 
-### P5.js
+- JavaScript
+ 
+
+
+- P5.js
+
+
+# Backend (Server-side)
+- Django (Python)
+- Express (Node.js)
