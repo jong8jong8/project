@@ -15,6 +15,7 @@
 
 
 - JavaScript
+ - [JavaScript에서 파일 읽기](https://web.dev/read-files/)
  
 
 
@@ -24,3 +25,5 @@
 # Backend (Server-side)
 - Django (Python)
 - Express (Node.js)
+
+
