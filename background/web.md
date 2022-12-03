@@ -18,3 +18,5 @@
 
 
 ## Backend (Server-side)
+- Django
+- Node.js
