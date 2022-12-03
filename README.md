@@ -2,7 +2,7 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [Web](./background/web.md)
-- [AI Library](./background/ailib.md)
+- [AI Web App](./background/aiapp.md)
 
 
 # AI Project
