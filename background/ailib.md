@@ -1,8 +1,8 @@
 # AI Libarry
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
-  - [Image]()
-  - [Sound]()
-  - [Pose]() 
+  - [Image Classification]()
+  - [Sound Classification]()
+  - [Pose Classification]() 
 - [TensorFlow.js](https://www.tensorflow.org/js)
 
 
