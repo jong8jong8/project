@@ -14,7 +14,7 @@
 - [Pose Classification](./tm3.md)
 -->
 
-## [ML5.js](https://ml5js.org/)
+## [ML5.js](./ml5.md)
 
 <!--
 ## [TensorFlow.js](https://www.tensorflow.org/js)
