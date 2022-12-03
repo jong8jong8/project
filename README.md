@@ -3,7 +3,7 @@
 - [Git](./background/git.md)
 - [Web](./background/web.md)
 - [AI Library](./background/ailib.md)
-- [AI Data](./background/aidata.md)
+
 
 # AI Project
 - [지한서](./han-seo/project.md) 
