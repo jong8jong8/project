@@ -12,5 +12,3 @@
 - [Pose Classification](./tm3.md)
 
 ## [TensorFlow.js](https://www.tensorflow.org/js)
-- [T-Rex Game with Squat]()
-- [Skin Disease Classification App]()
