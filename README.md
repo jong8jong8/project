@@ -1,7 +1,6 @@
 # AI Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [Web App](./background/web.md)
 - [AI Web App](./background/aiapp.md)
 - [Public Datasets](./background/data.md)
 
