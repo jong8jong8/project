@@ -97,3 +97,6 @@ sudo reboot
 
 ### Python 3.11 upgrade
 
+```sh
+sudo apt search python3.11
+```
