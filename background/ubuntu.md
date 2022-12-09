@@ -6,33 +6,33 @@
 
 ### Install Brave in Linux
 
-```
+```sh
 sudo apt install apt-transport-https curl
 ```
 
-```
+```sh
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 ```
 
-```
+```sh
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 ```
 
-```
+```sh
 sudo apt update
 ```
 
-```
+```sh
 sudo apt install brave-browser
 ```
 
 ### Install VScode in Linux
 
-``` 
+```sh 
 sudo apt install snapd 
 ```
 
-```
+```sh
 sudo snap install code --classic
 ```
 
@@ -40,7 +40,7 @@ sudo snap install code --classic
 
 ### Remove VScode in Linux
 
-```
+```sh
 sudo snap remove code
 ```
 
