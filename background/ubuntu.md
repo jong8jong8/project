@@ -110,3 +110,8 @@ cd ~/
 ls.bashrc
 code .bashrc
 ```
+
+```sh
+# python3.11 upgrade in .bashrc 
+alias python=python3.11
+```
