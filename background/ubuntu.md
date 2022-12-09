@@ -119,4 +119,5 @@ alias python=python3.11
 ```sh
 source .bashrc
 python --version
+python  # run python3.11
 ```
