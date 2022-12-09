@@ -94,3 +94,6 @@ sudo ubuntu-drivers autoinstall
 ```sh
 sudo reboot
 ```
+
+### Python 3.11 upgrade
+
