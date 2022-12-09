@@ -100,3 +100,7 @@ sudo reboot
 ```sh
 sudo apt search python3.11
 ```
+
+```sh
+sudo apt install python3.11
+```
