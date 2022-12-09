@@ -115,3 +115,8 @@ code .bashrc
 # python3.11 upgrade in .bashrc 
 alias python=python3.11
 ```
+
+```sh
+source .bashrc
+python --version
+```
