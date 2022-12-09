@@ -106,10 +106,5 @@ sudo apt install python3.11
 ```
 
 ```sh
-cd ~/
+cd ~/ ls.bashrc
 ```
-
-```sh
-ls .bashrc
-```
-
