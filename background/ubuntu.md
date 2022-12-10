@@ -106,9 +106,9 @@ sudo apt install python3.11
 ```
 
 ```sh
-cd ~/
+cd ~/           # move to home directory
 ls .bashrc      # check .bashrc file
-code .bashrc   # open with vscode
+code .bashrc    # open with vscode
 ```
 
 ```sh
