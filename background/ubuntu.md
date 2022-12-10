@@ -107,12 +107,12 @@ sudo apt install python3.11
 
 ```sh
 cd ~/
-ls.bashrc
-code .bashrc
+ls.bashrc      # check .bashrc file
+code .bashrc   # open with vscode
 ```
 
 ```sh
-# python3.11 upgrade in .bashrc 
+# python3.11 upgrade by editing the .bashrc file 
 alias python=python3.11
 ```
 
