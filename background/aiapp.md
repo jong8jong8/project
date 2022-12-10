@@ -5,6 +5,7 @@
   - [생활코딩 - WEB2 -  CSS](https://opentutorials.org/course/3086)
   - [생활코딩 - WEB2 - JavaScript](https://opentutorials.org/course/3085)
   - [생활코딩 - 언어 - JavaScript](https://opentutorials.org/course/743)
+  - [생활코딩 - JavaScript for Web Browser](https://opentutorials.org/course/1375)
 - [P5.js](./p5.md)  
 - [ML5.js](./ml5.md)
 - [Teachable Machine](./tm.md)
