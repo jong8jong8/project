@@ -107,7 +107,7 @@ sudo apt install python3.11
 
 ```sh
 cd ~/
-ls.bashrc      # check .bashrc file
+ls .bashrc      # check .bashrc file
 code .bashrc   # open with vscode
 ```
 
