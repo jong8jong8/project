@@ -118,6 +118,6 @@ alias python=python3.11
 
 ```sh
 source .bashrc             # apply the modified .bashrc 
-python --version           # check python version is 3.11 
+python --version           # check the python version is 3.11 
 python                     # use python instead of python3.11
 ```
