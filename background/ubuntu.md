@@ -112,12 +112,12 @@ code .bashrc    # open with vscode
 ```
 
 ```sh
-# python3.11 upgrade by editing the .bashrc file 
+# In vscode, add the following at the end of the .bashrc file 
 alias python=python3.11
 ```
 
 ```sh
-source .bashrc
-python --version
-python  # run python3.11
+source .bashrc             # apply the modified .bashrc 
+python --version           # check python version is 3.11 
+python                     # use python instead of python3.11
 ```
