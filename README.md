@@ -2,7 +2,6 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [AI Web App](./background/aiapp.md)
-- [Public Datasets](./background/data.md)
 
 # AI Project
 - [지한서](./han-seo/project.md) 
