@@ -24,7 +24,7 @@
 </head>
 <body>
     <h1>The title of this page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus delectus eligendi sunt labore impedit itaque minus, architecto ab, vitae quod laborum excepturi ut neque at autem praesentium eos quia sed?</p>
+    <p>This is a paragraph.</p>
     <canvas id="canvas"></canvas>
     <script>
         const canvas = document.getElementById("canvas");
