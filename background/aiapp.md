@@ -1,6 +1,5 @@
 
 # AI Web App
-- [MDN](https://developer.mozilla.org/ko/)
 - [HTML / CSS / DOM / JavaScript](./html.md)
 - [P5.js](./p5.md)  
 - [ML5.js](./ml5.md)
