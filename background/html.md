@@ -25,7 +25,7 @@
 <body>
     <h1>The title of this page</h1>
     <p>This is a paragraph.</p>
-    <canvas id="canvas"></canvas>
+    <canvas id="canvas" width="400" height="300"></canvas>
     <script>
         const canvas = document.getElementById("canvas");
         const ctx = canvas.getContext("2d");
