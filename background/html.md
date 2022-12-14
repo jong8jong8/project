@@ -7,3 +7,4 @@
 ---
 
 - [h00 - What is HTML?](./html/h00.md)
+- [h01 - Creating HTML Elements with JavaScript](./html/h01.md)
