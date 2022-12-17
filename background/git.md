@@ -36,7 +36,7 @@ cat id_ed25519.pub  # public key
 
 ```sh
 cd ~/  # go to my home directory
-git clone git@github.com:jong8jong8/Test.git Test
+git clone git@github.com:jong8jong8/Test.git Test  # 예: jong8jong8
 ```
 
 ### Push the work done at my local machine to Github
