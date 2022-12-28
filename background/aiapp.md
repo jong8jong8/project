@@ -9,8 +9,3 @@
 - [Kaggle](https://www.kaggle.com/)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
-
----
-
-
-- [WEBGL in P5.js](./webgl.md)
