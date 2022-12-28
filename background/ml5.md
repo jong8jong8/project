@@ -1,6 +1,6 @@
 # [ML5.js](https://ml5js.org/)
 
-- [Neural Networks](https://natureofcode.com/book/chapter-10-neural-networks/)
+
 ---
 
 - [m00 - Getting Started](./ml5/m00.md)
