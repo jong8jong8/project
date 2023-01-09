@@ -4,5 +4,5 @@
 ---
 
 - [m00 - Getting Started](./ml5/m00.md)
-- [m01  - Hello ml5.js - A gentle introduction to ml5](./ml5/m01.md)
+- [m01 - Image Classification (Introduction)](./ml5/m01.md)
 
