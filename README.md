@@ -2,9 +2,9 @@
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 - [AI Web App](./background/aiapp.md)
-  - [HTML / CSS / DOM / JavaScript](./html.md)
-  - [P5.js](./p5.md)  
-  - [ML5.js](./ml5.md)
+  - [HTML / CSS / DOM / JavaScript](./background/html.md)
+  - [P5.js](./background/p5.md)  
+  - [ML5.js](./background/ml5.md)
 - Public Datasets
  - [AI Hub](https://aihub.or.kr/)
  - [Kaggle](https://www.kaggle.com/)
