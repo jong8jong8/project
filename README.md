@@ -1,7 +1,7 @@
 # AI Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
-- [AI Web App](./background/aiapp.md)
+- AI Web App
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
   - [ML5.js](./background/ml5.md)
