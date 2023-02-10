@@ -8,3 +8,4 @@
 - [m02 - Webcam Image Classification](./ml5/m02.md)
 - [m03 - Object Detection with COCO-SSD](./ml5/m03.md)
 - [m04 - Transfer Learning with Feature Extractor](./ml5/m04.md)
+- [m05 - Save/Load Model](./ml5/m05.md)
