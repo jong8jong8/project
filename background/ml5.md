@@ -11,3 +11,4 @@
 - [m05 - KNN Classification](./ml5/m05.md)
 - [m06 - Train Your Own Neural Network](./ml5/m06.md)
 - [m07 - Sound Classification](./ml5/m07.md)
+- [m08 - Pose Estimation with PoseNet](./ml5/m08.md)
