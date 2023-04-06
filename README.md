@@ -1,6 +1,7 @@
 # AI Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
+- [MIT FUTURE OF AI](https://futureofai.mit.edu/)
 - AI Web App
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
