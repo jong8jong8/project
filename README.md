@@ -6,13 +6,12 @@
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
   - [ML5.js](./background/ml5.md)
-  - [ChatGPT](./background/chatgpt.md)
 - Public Datasets
   - [AI Hub](https://aihub.or.kr/)
   - [Kaggle](https://www.kaggle.com/)
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
-
+# [Prompt Engineering](./background/pe.md)
 
 # AI Project
 - [지한서](./han-seo/project.md) 
