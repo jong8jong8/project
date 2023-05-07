@@ -11,9 +11,12 @@
   - [Kaggle](https://www.kaggle.com/)
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
-# [Prompt Engineering](./background/pe.md)
 
-# AI Project
+# Prompt Engineering
+- [Prompt Engineering](./background/pe.md)
+
+
+# Student Project
 - [지한서](./han-seo/project.md) 
 - [임준서](./joon-seo/project.md)
 
