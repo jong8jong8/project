@@ -12,7 +12,7 @@
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
 
-# Prompt Engineering
+# AGI Background
 - [Prompt Engineering](./background/pe.md)
 
 
