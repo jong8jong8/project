@@ -18,7 +18,7 @@
 
 # Student Project
 - [지한서](./han-seo/project.md) 
-- [임준서](./joon-seo/project.md)
+- [임준서](./jun-seo/project.md)
 
 
 ---
