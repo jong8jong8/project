@@ -1,6 +1,8 @@
-# AI Background
+# CS Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
+
+# AI Background
 - AI Web App
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
