@@ -6,4 +6,4 @@
 
 ---
 
-- [a00 - Prompt Engineering Guide](./pe/a00.md)
+- [a00 - Act as an English Translator and Improver](./pe/a00.md)
