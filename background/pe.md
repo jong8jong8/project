@@ -3,7 +3,6 @@
 - [Hugging Face](https://huggingface.co/) 
 - [Bard](https://bard.google.com/)
 - [Bing](https://www.bing.com/)
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 
 
 ---
