@@ -1,4 +1,4 @@
-# Prompt Engineering
+# [Prompt Engineering](https://www.promptingguide.ai/)
 
 
 ---
