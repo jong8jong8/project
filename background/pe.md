@@ -3,4 +3,4 @@
 
 ---
 
-- [ChatGPT](./pe/p00.md)
+- [a00 - ChatGPT](./pe/a00.md)
