@@ -5,7 +5,7 @@
 - [Bing](https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1)
 
 ---
-
+<!--
 ### For Customers
 
 - [a00 - Act as an English Translator and Improver](./pe/a00.md)
@@ -16,3 +16,4 @@
 
 ### For Developers
 - ???
+-->
