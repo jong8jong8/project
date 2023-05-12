@@ -2,7 +2,7 @@
 - [ChatGPT](https://chat.openai.com/)
 - [Hugging Face](https://huggingface.co/) 
 - [Bard](https://bard.google.com/)
-
+- [Bing](https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1)
 
 ---
 
