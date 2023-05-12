@@ -1,4 +1,5 @@
 # [Prompt Engineering](https://www.promptingguide.ai/)
+- [Large Language Model (LLM)](https://en.wikipedia.org/wiki/Large_language_model)
 - [ChatGPT](https://chat.openai.com/)
 - [Hugging Face](https://huggingface.co/) 
 - [Bard](https://bard.google.com/)
