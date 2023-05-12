@@ -18,7 +18,7 @@
 - [Prompt Engineering](./background/pe.md)
 
 
-# Student Project
+# Students
 - [지한서](./han-seo/project.md) 
 - [임준서](./jun-seo/project.md)
 
