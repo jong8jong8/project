@@ -1,4 +1,4 @@
-# Workflow
+# CS Background
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 
