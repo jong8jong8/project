@@ -121,3 +121,14 @@ source .bashrc             # apply the modified .bashrc
 python --version           # check the python version is 3.11 
 python                     # use python instead of python3.11
 ```
+
+
+### How to install Microsoft Edge to use New Bing
+- You need MS Account.
+
+```sh
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+
+sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+
+```
