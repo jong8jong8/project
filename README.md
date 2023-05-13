@@ -1,4 +1,4 @@
-# Setup
+# Workflow
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 
