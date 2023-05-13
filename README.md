@@ -1,8 +1,8 @@
-# CS Background
+# Setup
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
 
-# AI Background
+# AI
 - AI Web App
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
@@ -13,7 +13,7 @@
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
 
-# AGI Background
+# AGI
 - [MIT FUTURE OF AI](https://futureofai.mit.edu/)
 - [Prompt Engineering](./background/pe.md)
 
