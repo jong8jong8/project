@@ -124,7 +124,7 @@ python                     # use python instead of python3.11
 
 
 ### How to install Microsoft Edge to use New Bing
-- You need MS Account.
+- You need a MS Account.
 
 ```sh
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
