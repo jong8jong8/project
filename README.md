@@ -6,7 +6,7 @@
   - [Live Server](https://ritwickdey.github.io/vscode-live-server/) 
 - [Chrome](https://www.google.com/chrome/)
 
-# AI
+# Background
 - AI Web App
   - [HTML / CSS / DOM / JavaScript](./background/html.md)
   - [P5.js](./background/p5.md)  
@@ -15,11 +15,9 @@
   - [AI Hub](https://aihub.or.kr/)
   - [Kaggle](https://www.kaggle.com/)
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
-
-
-# AGI
-- [MIT FUTURE OF AI](https://futureofai.mit.edu/)
-- [Prompt Engineering](./background/pe.md)
+- AGI
+  - [MIT FUTURE OF AI](https://futureofai.mit.edu/)
+  - [Prompt Engineering](./background/pe.md)
 
 
 # Students
