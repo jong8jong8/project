@@ -1,6 +1,8 @@
 # Workflow
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Python](https://www.python.org/)
 
 # AI
 - AI Web App
