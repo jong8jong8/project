@@ -21,8 +21,8 @@
 
 
 # Students
-- [지한서](./han-seo/project.md) 
-- [임준서](./jun-seo/project.md)
+- [지한서](./students/han-seo/project.md) 
+- [임준서](./students/jun-seo/project.md)
 
 
 ---
