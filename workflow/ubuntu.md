@@ -1,6 +1,11 @@
 # [Ubuntu](https://ubuntu.com/)
-- [Open terminal](#open-terminal)
-- [Python](#python)
+- [Open terminal](#Open-terminal)
+- [Install Brave in Linux](#Install-Brave-in-Linux)
+- [Install VScode in Linux](#Install-VScode-in-Linux)
+- []()
+- []()
+- []()
+
 
 
 
@@ -8,11 +13,12 @@
 ----
 
 
-### <a name="open-terminal">Open terminal</a>
+### <a name="Open-terminal">Open terminal</a>
 
 `Ctrl` + `Alt` + `T`
 
-### Install Brave in Linux
+
+### <a name="Install-Brave-in-Linux">Install Brave in Linux</a>
 
 ```sh
 sudo apt install apt-transport-https curl
@@ -34,7 +40,7 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
-### Install VScode in Linux
+### <a name="Install-VScode-in-Linux">Install VScode in Linux</a>
 
 ```sh 
 sudo apt install snapd 
