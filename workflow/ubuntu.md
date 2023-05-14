@@ -1,4 +1,5 @@
 # [Ubuntu](https://ubuntu.com/)
+- [Open terminal](#open-terminal)
 - [Python](#python)
 
 
@@ -7,7 +8,7 @@
 ----
 
 
-### Open terminal
+### <a name="open-terminal">Open terminal</a>
 
 `Ctrl` + `Alt` + `T`
 
