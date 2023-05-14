@@ -1,4 +1,11 @@
 # [Ubuntu](https://ubuntu.com/)
+- [Python](#python)
+
+
+
+
+----
+
 
 ### Open terminal
 
@@ -95,7 +102,7 @@ sudo ubuntu-drivers autoinstall
 sudo reboot
 ```
 
-### Python 3.11 upgrade
+### <a name="python">Python 3.11 upgrade</a>
 
 ```sh
 sudo apt search python3.11
