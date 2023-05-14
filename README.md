@@ -1,9 +1,9 @@
 # Workflow
 - [Ubuntu](./background/ubuntu.md)
 - [Git](./background/git.md)
+- [Python](https://www.python.org/)
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
   - [Live Server](https://ritwickdey.github.io/vscode-live-server/) 
-- [Python](https://www.python.org/)
 - [Chrome](https://www.google.com/chrome/)
 
 # AI
