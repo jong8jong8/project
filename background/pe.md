@@ -1,4 +1,4 @@
-# [Prompt Engineering](https://www.promptingguide.ai/)
+# Prompt Engineering
 - [ChatGPT](https://chat.openai.com/)
 - [Hugging Face](https://huggingface.co/) 
 - [Bard](https://bard.google.com/)
