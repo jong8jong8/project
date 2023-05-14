@@ -5,7 +5,7 @@
 - [Remove VScode in Linux](#Remove-VScode-in-Linux)
 - [How to save console output to an image](#How-to-save-console-output-to-an-image)
 - [Nvidia driver](#Nvidia-driver)
-- [Python 3.11 upgrade](#Python-3-11-upgrade)
+- [Python 3.11 upgrade](#Python-3.11-upgrade)
 - [Microsoft Edge in Linux](#Microsoft-Edge-in-Linux)
 
 ----
@@ -97,7 +97,7 @@ sudo ubuntu-drivers autoinstall
 sudo reboot
 ```
 
-### <a name="Python-3-11-upgrade">Python 3.11 upgrade</a>
+### <a name="Python-3.11-upgrade">Python 3.11 upgrade</a>
 
 ```sh
 sudo apt search python3.11
