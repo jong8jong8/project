@@ -2,13 +2,11 @@
 - [Open terminal](#Open-terminal)
 - [Install Brave in Linux](#Install-Brave-in-Linux)
 - [Install VScode in Linux](#Install-VScode-in-Linux)
-- []()
-- []()
-- []()
-
-
-
-
+- [Remove VScode in Linux](#Remove-VScode-in-Linux)
+- [How to save console output to an image](#How-to-save-console-output-to-an-image)
+- [Nvidia driver](#Nvidia-driver)
+- [Python 3.11 upgrade](#Python-3.11-upgrade)
+- [Microsoft Edge in Linux](#Microsoft-Edge-in-Linux)
 
 ----
 
@@ -52,13 +50,13 @@ sudo snap install code --classic
 
 
 
-### Remove VScode in Linux
+### <a name="Remove-VScode-in-Linux">Remove VScode in Linux</a>
 
 ```sh
 sudo snap remove code
 ```
 
-### How to save console output to an image
+### <a name="How-to-save-console-output-to-an-image">How to save console output to an image</a>
 
 - Install **ImageMagick**
 
@@ -77,17 +75,7 @@ convert label:"$(tree)"  directory_image.png
 ```
 
 
-### A Matrix Movie Screen Saver in a Terminal 
-
-```sh
-sudo apt install cmatrix
-```
-
-```sh
-cmatrix -s
-```
-
-### Nvidia driver
+### <a name="Nvidia-driver">Nvidia driver</a>
 
 ```sh
 sudo lshw -c display # check display 
@@ -109,7 +97,7 @@ sudo ubuntu-drivers autoinstall
 sudo reboot
 ```
 
-### <a name="python">Python 3.11 upgrade</a>
+### <a name="Python-3.11-upgrade">Python 3.11 upgrade</a>
 
 ```sh
 sudo apt search python3.11
@@ -137,7 +125,7 @@ python                     # use python instead of python3.11
 ```
 
 
-### How to install Microsoft Edge to use New Bing
+### <a name="Microsoft-Edge-in-Linux">Microsoft Edge in Linux</a>
 - You need a MS Account.
 
 ```sh
