@@ -17,8 +17,6 @@
   - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - AGI
   - [MIT FUTURE OF AI](https://futureofai.mit.edu/)
-  - [ChatGPT and more]()
-  - [Stable Diffusion and more]()
   - [Prompt Engineering](./background/pe.md)
 
 
