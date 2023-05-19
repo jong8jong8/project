@@ -8,7 +8,7 @@
 ---
 
 ### Learn Prompt Engineering
-
+- [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Prompt Engineering vs. Blind Prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
