@@ -6,15 +6,11 @@
   - [Slack](https://slack.com/intl/ko-kr/)
 
 ---
-<!--
-### For Customers
 
-- [a00 - Act as an English Translator and Improver](./pe/a00.md)
-- [a01 - Act as a Linux Terminal](./pe/a01.md)
+### Learn Prompt Engineering
+
+- [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [Prompt Engineering vs. Blind Prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
 
 
----
-
-### For Developers
-- ???
--->
