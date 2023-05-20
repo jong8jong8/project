@@ -8,7 +8,7 @@
 - [Python 3.11 upgrade](#python-upgrade)
 - [Google Chrome in Linux](#Google-Chrome-in-Linux)
 - [Microsoft Edge in Linux](#Microsoft-Edge-in-Linux)
-- [Hanseo is very handsome]
+- [Hanseo is very handsome](#Hanseo-is-very-handsome)
 
 ----
 
