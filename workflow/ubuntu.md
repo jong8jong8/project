@@ -130,12 +130,19 @@ python                     # use python instead of python3.11
 
 ```sh
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
-sudo rm microsoft.gpg
-sudo apt install microsoft-edge-stable
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+```
+```sh
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge-dev.list
+```
+```sh
+sudo apt update
+```
+```sh
+sudo apt install microsoft-edge-dev
+```
 
 microsoft-edge
-
+```sh
 # sudo apt remove microsoft-edge-stable
 ```
