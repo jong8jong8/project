@@ -144,5 +144,5 @@ sudo apt install microsoft-edge-dev
 
 microsoft-edge
 ```sh
-# sudo apt remove microsoft-edge-stable
+sudo apt remove microsoft-edge-stable
 ```
