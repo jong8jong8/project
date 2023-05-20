@@ -160,8 +160,9 @@ sudo apt update
 ```sh
 sudo apt install microsoft-edge-dev
 ```
-
+```sh
 microsoft-edge
+```
 ```sh
 sudo apt remove microsoft-edge-stable
 ```
