@@ -6,7 +6,9 @@
 - [How to save console output to an image](#How-to-save-console-output-to-an-image)
 - [Nvidia driver](#Nvidia-driver)
 - [Python 3.11 upgrade](#python-upgrade)
+- [Google Chrome in Linux](#Google-Chrome-in-Linux)
 - [Microsoft Edge in Linux](#Microsoft-Edge-in-Linux)
+- [Hanseo is very handsome]
 
 ----
 
@@ -124,6 +126,23 @@ python --version           # check the python version is 3.11
 python                     # use python instead of python3.11
 ```
 
+### <a name="Google-Chrome-in-Linux">Google Chrome in Linux</a>
+
+```sh
+sudo apt update
+```
+```sh
+sudo apt install wget
+```
+```sh
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+```sh
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+```sh
+google-chrome
+```
 
 ### <a name="Microsoft-Edge-in-Linux">Microsoft Edge in Linux</a>
 - You need a MS Account.
