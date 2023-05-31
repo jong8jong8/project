@@ -5,6 +5,7 @@
 - [Anthropic Claude](https://www.anthropic.com/index/introducing-claude)
   - [Slack](https://slack.com/intl/ko-kr/)
 - [뤼튼](https://wrtn.ai/)
+- [Landing AI](https://landing.ai/)
 
 ---
 
