@@ -14,7 +14,7 @@
 - [m07 - Sound Classification](./ml5/m07.md)
 - [m08 - Pose Estimation with PoseNet](./ml5/m08.md)
 - [m09 - Pose Classification with PoseNet and ml5.neuralNetwork](./ml5/m09.md)
-- [m10 - Image Segmentation with U-Net and BodyPix](./ml5/m10.md)
+- [m10 - Image Segmentation with U-Net](./ml5/m10.md)
 - [m11 - Image Segmentation with BodyPix](./ml5/m11.md)
 
 
