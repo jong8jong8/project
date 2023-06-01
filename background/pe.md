@@ -6,6 +6,7 @@
   - [Slack](https://slack.com/intl/ko-kr/)
 - [뤼튼](https://wrtn.ai/)
 - [privateGPT](https://github.com/imartinez/privateGPT)
+  - [DeepL](https://www.deepl.com/en/translator) 
 - [Landing AI](https://landing.ai/)
 
 ---
