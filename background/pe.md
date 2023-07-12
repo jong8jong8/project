@@ -14,6 +14,7 @@
 ### Learn Prompt Engineering
 - [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng)
+  - [Juoyter Notebook Code](https://github.com/ralphcajipe/chatgpt-prompt-engineering) 
 - [Prompt Engineering vs. Blind Prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Introducing Visual Prompting](https://landing.ai/)
