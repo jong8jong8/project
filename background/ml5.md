@@ -15,7 +15,7 @@
 - [m08 - Pose Estimation with PoseNet](./ml5/m08.md)
 - [m09a - Pose Classification with PoseNet and ml5.neuralNetwork](./ml5/m09a.md)
 - [m09b - Pose Regression with PoseNet and ml5.neuralNetwork](./ml5/m09b.md)
-- [m10 - Handpose](./ml5/m10.md)
+- [m10 - Handpose for palm detection and hand-skeleton finger tracking](./ml5/m10.md)
 
 
 
