@@ -115,7 +115,6 @@ function draw() {
   translate(video.width, 0);
   scale(-1, 1);
   image(video, 0, 0);
-
   pop();
 }
 ```
