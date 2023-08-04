@@ -53,57 +53,59 @@ function gotPoses(poses){
     strokeWeight(2);
     stroke(0, 255, 0);  // green
     line(wrist_x, wrist_y, thumb_cmc_x, thumb_cmc_y);
-
+    //Thumb
     for (let i = 1; i < 3; i++) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//thumb
-
+    }
+    //Index
     for (let i = 5; i < 8; i++) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//index
-
+    }
+    //Middle
     for (let i = 9; i < 12; i++) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//middle
-
+    }
+    //Ring
     for (let i = 13; i < 16; i++) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//ring
-
+    }
+    //pinky
     for (let i = 17; i < 20; i++) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//pinky
-
+    }
+    //MCP
     for (let i = 5; i < 17; i+=4) {
         let a = landmark[i][0];
         let b = landmark[i][1];
         strokeWeight(2);
         stroke(255);
         line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }//MCP
+    }
+    //5:0
+    line();
 
-    line()//5:0
-    line()//17:0
+    //17:0
+    line();
   }
 }
 
