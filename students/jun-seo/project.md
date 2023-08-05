@@ -32,7 +32,7 @@ function gotPoses(poses){
     for (let i = 0; i < landmark.length; i++) {
       let x = landmark[i][0];
       let y = landmark[i][1];
-      fill(0, 255, 0);
+      fill(255, 0, 0);
       noStroke();
       circle(x, y, 10);
     }
@@ -40,72 +40,92 @@ function gotPoses(poses){
     // lines 0
     let wrist_x = annotation.palmBase[0][0];
     let wrist_y = annotation.palmBase[0][1];
-    fill(255, 0, 0);  // red
+    fill(0);  // black
     noStroke();
     circle(wrist_x, wrist_y, 10);
 
     let thumb_cmc_x = annotation.thumb[0][0];
     let thumb_cmc_y = annotation.thumb[0][1];
-    fill(0, 0, 255);  // blue
+    
+    let indexFinger_mcp_x = annotation.indexFinger[0][0];
+    let indexFinger_mcp_y = annotation.indexFinger[0][1];
+
+    let middleFinger_mcp_x= annotation.middleFinger[0][0];
+    let middleFinger_mcp_y = annotation.middleFinger[0][1];
+    
+    let ringFinger_mcp_x = annotation.ringFinger[0][0];
+    let ringFinger_mcp_y = annotation.ringFinger[0][1];
+    
+    let pinky_mcp_x = annotation.pinky[0][0];
+    let pinky_mcp_y = annotation.pinky[0][1];
+    
+    fill(255);  // white
     noStroke();
     circle(thumb_cmc_x, thumb_cmc_y, 10);
 
     strokeWeight(2);
     stroke(0, 255, 0);  // green
     line(wrist_x, wrist_y, thumb_cmc_x, thumb_cmc_y);
-    //Thumb
-    for (let i = 1; i < 3; i++) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
+    line(wrist_x, wrist_y, indexFinger_mcp_x, indexFinger_mcp_y);
+    line(wrist_x, wrist_y, middleFinger_mcp_x, middleFinger_mcp_y);
+    line(wrist_x, wrist_y, ringFinger_mcp_x, ringFinger_mcp_y);
+    line(wrist_x, wrist_y, pinky_mcp_x, pinky_mcp_y);
+    
+    //thumb
+    for (let i = 0; i < 3; i++) {
+        let a = annotation.thumb[i][0];
+        let b = annotation.thumb[i][1];
+        let c = annotation.thumb[i+1][0];
+        let d = annotation.thumb[i+1][1];
         strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
+        stroke(0,255,0);
+        line(a,b,c,d);
     }
-    //Index
-    for (let i = 5; i < 8; i++) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
-        strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
+    
+    //indexFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.indexFinger[i][0];
+      let b = annotation.indexFinger[i][1];
+      let c = annotation.indexFinger[i+1][0];
+      let d = annotation.indexFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
     }
-    //Middle
-    for (let i = 9; i < 12; i++) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
-        strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }
-    //Ring
-    for (let i = 13; i < 16; i++) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
-        strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }
-    //pinky
-    for (let i = 17; i < 20; i++) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
-        strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }
-    //MCP
-    for (let i = 5; i < 17; i+=4) {
-        let a = landmark[i][0];
-        let b = landmark[i][1];
-        strokeWeight(2);
-        stroke(255);
-        line(a.annotation.x, a.annotation.y, b.annotation.x, b.annotation.y);
-    }
-    //5:0
-    line();
 
-    //17:0
-    line();
+    //middleFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.middleFinger[i][0];
+      let b = annotation.middleFinger[i][1];
+      let c = annotation.middleFinger[i+1][0];
+      let d = annotation.middleFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+
+    //ringFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.ringFinger[i][0];
+      let b = annotation.ringFinger[i][1];
+      let c = annotation.ringFinger[i+1][0];
+      let d = annotation.ringFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+
+    //pinky
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.pinky[i][0];
+      let b = annotation.pinky[i][1];
+      let c = annotation.pinky[i+1][0];
+      let d = annotation.pinky[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+  
   }
 }
 
