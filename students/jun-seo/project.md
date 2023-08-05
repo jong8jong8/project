@@ -1,6 +1,6 @@
 # 임준서
 
-- `sketch.js`
+- `sketch.js` handposeAnnotation(힘줄)
 
 ```javascript
 let video;
@@ -138,3 +138,143 @@ function draw() {
   pop();
 }
 ```
+
+- `sketch.js` handposeAnnotation(손바닥)
+
+```javascript
+let video;
+let handpose;
+let landmark;
+let annotation;
+
+function setup() {
+  createCanvas(640, 480);
+  video = createCapture(VIDEO);
+  video.hide();
+  let options = {
+    flipHorizontal: true
+  }
+  handpose = ml5.handpose(video, options, modelLoaded);
+  
+  handpose.on('hand', gotPoses);
+}
+
+function modelLoaded() {
+  console.log('Handpose is ready');
+}
+
+function gotPoses(poses){
+  console.log(poses);
+  if (poses.length > 0) {
+    landmark = poses[0].landmarks;
+    annotation = poses[0].annotations;
+    for (let i = 0; i < landmark.length; i++) {
+      let x = landmark[i][0];
+      let y = landmark[i][1];
+      fill(255, 0, 0);
+      noStroke();
+      circle(x, y, 10);
+    }
+
+    // lines 0
+    let wrist_x = annotation.palmBase[0][0];
+    let wrist_y = annotation.palmBase[0][1];
+    fill(0);  // black
+    noStroke();
+    circle(wrist_x, wrist_y, 10);
+
+    let thumb_cmc_x = annotation.thumb[0][0];
+    let thumb_cmc_y = annotation.thumb[0][1];
+    
+    let indexFinger_mcp_x = annotation.indexFinger[0][0];
+    let indexFinger_mcp_y = annotation.indexFinger[0][1];
+
+    let middleFinger_mcp_x= annotation.middleFinger[0][0];
+    let middleFinger_mcp_y = annotation.middleFinger[0][1];
+    
+    let ringFinger_mcp_x = annotation.ringFinger[0][0];
+    let ringFinger_mcp_y = annotation.ringFinger[0][1];
+    
+    let pinky_mcp_x = annotation.pinky[0][0];
+    let pinky_mcp_y = annotation.pinky[0][1];
+    
+    fill(255);  // white
+    noStroke();
+    circle(thumb_cmc_x, thumb_cmc_y, 10);
+
+    strokeWeight(2);
+    stroke(0, 255, 0);  // green
+    line(wrist_x, wrist_y, thumb_cmc_x, thumb_cmc_y);
+    line(wrist_x, wrist_y, indexFinger_mcp_x, indexFinger_mcp_y);
+    line(wrist_x, wrist_y, middleFinger_mcp_x, middleFinger_mcp_y);
+    line(wrist_x, wrist_y, ringFinger_mcp_x, ringFinger_mcp_y);
+    line(wrist_x, wrist_y, pinky_mcp_x, pinky_mcp_y);
+    
+    //thumb
+    for (let i = 0; i < 3; i++) {
+        let a = annotation.thumb[i][0];
+        let b = annotation.thumb[i][1];
+        let c = annotation.thumb[i+1][0];
+        let d = annotation.thumb[i+1][1];
+        strokeWeight(2);
+        stroke(0,255,0);
+        line(a,b,c,d);
+    }
+    
+    //indexFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.indexFinger[i][0];
+      let b = annotation.indexFinger[i][1];
+      let c = annotation.indexFinger[i+1][0];
+      let d = annotation.indexFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+
+    //middleFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.middleFinger[i][0];
+      let b = annotation.middleFinger[i][1];
+      let c = annotation.middleFinger[i+1][0];
+      let d = annotation.middleFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+
+    //ringFinger
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.ringFinger[i][0];
+      let b = annotation.ringFinger[i][1];
+      let c = annotation.ringFinger[i+1][0];
+      let d = annotation.ringFinger[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+
+    //pinky
+    for (let i = 0; i < 3; i++) {
+      let a = annotation.pinky[i][0];
+      let b = annotation.pinky[i][1];
+      let c = annotation.pinky[i+1][0];
+      let d = annotation.pinky[i+1][1];
+      strokeWeight(2);
+      stroke(0,255,0);
+      line(a,b,c,d);
+    }
+  
+  }
+}
+
+function draw() {
+  push();
+  // flip image's left and right
+  translate(video.width, 0);
+  scale(-1, 1);
+  image(video, 0, 0);
+  pop();
+}
+```
+
