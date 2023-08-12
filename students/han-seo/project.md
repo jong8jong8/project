@@ -1,8 +1,8 @@
 # 지한서 
 
 
-- 외않되
-```
+- 핑거 스켈레톤 이다.
+```js
 let video;
 let handpose;
 let landmark;
@@ -61,17 +61,72 @@ function gotPoses(poses){
 
       let x1 = annotation.thumb[k][0];
       let y1 = annotation.thumb[k][1];
-      if (k = 1) {
-        strokeWeight(2);
-        stroke(255, 255, 255);
-        line(thumb_cmc_x, thumb_cmc_y, x1, y1);
-      }
+
       let x2 = annotation.thumb[k+1][0];
       let y2 = annotation.thumb[k+1][1];
       strokeWeight(2);
       stroke(255, 255, 255);
       line(x1, y1, x2, y2);
       }
+
+      // index finger lines
+
+      for (let o = 0; o < 3; o++) {
+        let x1 = annotation.indexFinger[o][0];
+        let y1 = annotation.indexFinger[o][1]
+        if (o == 0) {
+          line(wrist_x, wrist_y, x1, y1);
+        }
+        let x2 = annotation.indexFinger[o+1][0];
+        let y2 = annotation.indexFinger[o+1][1];
+        line(x1, y1, x2, y2);
+      }
+
+      // middle finger lines
+      for (let o = 0; o < 3; o++) {
+        let x1 = annotation.middleFinger[o][0];
+        let y1 = annotation.middleFinger[o][1];
+        let x2 = annotation.middleFinger[o+1][0];
+        let y2 = annotation.middleFinger[o+1][1];
+        line(x1, y1, x2, y2);
+      }
+
+      // ring finger
+      for (let o = 0; o < 3; o++) {
+        let x1 = annotation.ringFinger[o][0];
+        let y1 = annotation.ringFinger[o][1];
+        let x2 = annotation.ringFinger[o+1][0];
+        let y2 = annotation.ringFinger[o+1][1];
+        line(x1, y1, x2, y2);
+      }
+
+      // pinky
+      for (let o = 0; o < 3; o++) {
+        let x1 = annotation.pinky[o][0];
+        let y1 = annotation.pinky[o][1];
+        let x2 = annotation.pinky[o+1][0];
+        let y2 = annotation.pinky[o+1][1];
+        line(x1, y1, x2, y2);
+      }
+      
+      // others and stuff
+      let index_finger_mcp_x = annotation.indexFinger[0][0];
+      let index_finger_mcp_y = annotation.indexFinger[0][1];
+
+      let middle_finger_mcp_x = annotation.middleFinger[0][0];
+      let middle_finger_mcp_y = annotation.middleFinger[0][1];
+
+      let ring_finger_mcp_x = annotation.ringFinger[0][0];
+      let ring_finger_mcp_y = annotation.ringFinger[0][1];
+
+      let pinky_mcp_x = annotation.pinky[0][0];
+      let pinky_mcp_y = annotation.pinky[0][1];
+
+      line(index_finger_mcp_x, index_finger_mcp_y, middle_finger_mcp_x, middle_finger_mcp_y)
+      line(middle_finger_mcp_x, middle_finger_mcp_y, ring_finger_mcp_x, ring_finger_mcp_y)
+      line(ring_finger_mcp_x, ring_finger_mcp_y, pinky_mcp_x, pinky_mcp_y)
+      line(wrist_x, wrist_y, pinky_mcp_x, pinky_mcp_y)
+
     }
 }
 
