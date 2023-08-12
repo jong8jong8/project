@@ -1,5 +1,6 @@
 # 임준서
 - [한글 지문자](https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B8%80_%EC%A7%80%EB%AC%B8%EC%9E%90)
+- [k-nearest neighbors (KNN) algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
 ---
 -sketch.js
