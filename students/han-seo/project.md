@@ -56,14 +56,14 @@ function gotPoses(poses){
 
     // thumb lines
 
-    for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
       
 
-      let x1 = annotation.thumb[i][0];
-      let y1 = annotation.thumb[i][1];
+      let x1 = annotation.thumb[j][0];
+      let y1 = annotation.thumb[j][1];
 
-      let x2 = annotation.thumb[i+1][0];
-      let y2 = annotation.thumb[i+1][1];
+      let x2 = annotation.thumb[j+1][0];
+      let y2 = annotation.thumb[j+1][1];
       strokeWeight(2);
       stroke(255, 255, 255);
       line(x1, y1, x2, y2);
@@ -71,41 +71,41 @@ function gotPoses(poses){
 
       // index finger lines
 
-      for (let i = 0; i < 3; i++) {
-        let x1 = annotation.indexFinger[i][0];
-        let y1 = annotation.indexFinger[i][1]
-        if (i == 0) {
+      for (let j = 0; j < 3; j++) {
+        let x1 = annotation.indexFinger[j][0];
+        let y1 = annotation.indexFinger[j][1]
+        if (j == 0) {
           line(wrist_x, wrist_y, x1, y1);
         }
-        let x2 = annotation.indexFinger[i+1][0];
-        let y2 = annotation.indexFinger[i+1][1];
+        let x2 = annotation.indexFinger[j+1][0];
+        let y2 = annotation.indexFinger[j+1][1];
         line(x1, y1, x2, y2);
       }
 
       // middle finger lines
-      for (let i = 0; i < 3; i++) {
-        let x1 = annotation.middleFinger[i][0];
-        let y1 = annotation.middleFinger[i][1];
-        let x2 = annotation.middleFinger[i+1][0];
-        let y2 = annotation.middleFinger[i+1][1];
+      for (let j = 0; j < 3; j++) {
+        let x1 = annotation.middleFinger[j][0];
+        let y1 = annotation.middleFinger[j][1];
+        let x2 = annotation.middleFinger[j+1][0];
+        let y2 = annotation.middleFinger[j+1][1];
         line(x1, y1, x2, y2);
       }
 
       // ring finger
-      for (let i = 0; i < 3; i++) {
-        let x1 = annotation.ringFinger[i][0];
-        let y1 = annotation.ringFinger[i][1];
-        let x2 = annotation.ringFinger[i+1][0];
-        let y2 = annotation.ringFinger[i+1][1];
+      for (let j = 0; j < 3; j++) {
+        let x1 = annotation.ringFinger[j][0];
+        let y1 = annotation.ringFinger[j][1];
+        let x2 = annotation.ringFinger[j+1][0];
+        let y2 = annotation.ringFinger[j+1][1];
         line(x1, y1, x2, y2);
       }
 
       // pinky
-      for (let i = 0; i < 3; i++) {
-        let x1 = annotation.pinky[i][0];
-        let y1 = annotation.pinky[i][1];
-        let x2 = annotation.pinky[i+1][0];
-        let y2 = annotation.pinky[i+1][1];
+      for (let j = 0; j < 3; j++) {
+        let x1 = annotation.pinky[j][0];
+        let y1 = annotation.pinky[j][1];
+        let x2 = annotation.pinky[j+1][0];
+        let y2 = annotation.pinky[j+1][1];
         line(x1, y1, x2, y2);
       }
       
