@@ -1,5 +1,5 @@
 # 임준서
-- [한글 지문자] [https://www.youtube.com/watch?v=aircAruvnKk]
+- [한글 지문자] [https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B8%80_%EC%A7%80%EB%AC%B8%EC%9E%90]
 - [수어 모델]([https://en.wikipedia.org/wiki/Piano_key_frequencies](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=103)https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=103])
 ---
 -sketch.js
