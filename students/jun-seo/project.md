@@ -134,22 +134,28 @@ function draw() {
 ```
 -sketch.js(type2)
 ```javascript
-let video;
+llet video;
 let handpose;
 let landmark;
 let annotation;
-let inp;
+let textbox;
 let button1;
 let button2;
 
+let brain;
+
+let state = 'waiting';
+let targetLabel;
+
 function setup() {
   createCanvas(640, 480);
-  inp = createInput('');
-  inp.position(10,575);
-  inp.size(100);
+  textbox = createInput('');
+  textbox.position(10,575);
+  textbox.size(100);
+
   button1 = createButton('train');
   button1.position(125,575);
-  //button1.mousePressed();
+  //button1.mousePressed().;
   button2 = createButton('save');
   button2.position(175,575);
   button2.mousePressed(dataSaving);
@@ -157,11 +163,21 @@ function setup() {
   video = createCapture(VIDEO);
   video.hide();
   let options = {
-    flipHorizontal: true
+    flipHorizontal: true,
+    maxNumHands: 2,
+    detectionConfidence: 0.8,
+    scoreThreshold: 0.5
   }
   handpose = ml5.handpose(video, options, modelLoaded);
-  
   handpose.on('hand', gotPoses);
+
+  let nnOptions = {
+    inputs: 63,  // 21 points (x,y,z)
+    outputs: 30,  // 한글 자음 모음
+    task: 'classification',
+    debug: true
+  }
+  brain = ml5.neuralNetwork(nnOptions);
 }
 
 function modelLoaded() {
@@ -169,19 +185,25 @@ function modelLoaded() {
 }
 
 function gotPoses(poses){
-  console.log(poses);
   if (poses.length > 0) {
     landmark = poses[0].landmarks;
     annotation = poses[0].annotations;
+    skeleton();
+  }
+}
+
+function skeleton(){
+  if (landmark.length > 0) {
     for (let i = 0; i < landmark.length; i++) {
       let x = landmark[i][0];
       let y = landmark[i][1];
-      fill(255, 0, 0);
+      fill(255, 255, 255);
       noStroke();
       circle(x, y, 10);
     }
-
-    // lines 0
+  }
+  
+    //lines 0
     let wrist_x = annotation.palmBase[0][0];
     let wrist_y = annotation.palmBase[0][1];
     fill(0);  // black
@@ -272,14 +294,12 @@ function gotPoses(poses){
       stroke(0,255,0);
       line(a,b,c,d);
     }
-  
-  }
-}
-function dataSaving(){
-  model.saveData('sign_language');
-  model.save();
 }
 
+function dataSaving(){
+  brain.saveData('sign_language');
+  brain.save();
+}
 
 function draw() {
   push();
@@ -289,4 +309,5 @@ function draw() {
   image(video, 0, 0);
   pop();
 }
+
 ```
