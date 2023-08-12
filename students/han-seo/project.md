@@ -74,7 +74,7 @@ function gotPoses(poses){
       for (let i = 0; i < 3; i++) {
         let x1 = annotation.indexFinger[i][0];
         let y1 = annotation.indexFinger[i][1]
-        if (o == 0) {
+        if (i == 0) {
           line(wrist_x, wrist_y, x1, y1);
         }
         let x2 = annotation.indexFinger[i+1][0];
@@ -83,7 +83,7 @@ function gotPoses(poses){
       }
 
       // middle finger lines
-      for (let o = 0; o < 3; o++) {
+      for (let i = 0; i < 3; i++) {
         let x1 = annotation.middleFinger[i][0];
         let y1 = annotation.middleFinger[i][1];
         let x2 = annotation.middleFinger[i+1][0];
@@ -122,11 +122,13 @@ function gotPoses(poses){
       let pinky_mcp_x = annotation.pinky[0][0];
       let pinky_mcp_y = annotation.pinky[0][1];
 
-      line(index_finger_mcp_x, index_finger_mcp_y, middle_finger_mcp_x, middle_finger_mcp_y)
-      line(middle_finger_mcp_x, middle_finger_mcp_y, ring_finger_mcp_x, ring_finger_mcp_y)
-      line(ring_finger_mcp_x, ring_finger_mcp_y, pinky_mcp_x, pinky_mcp_y)
-      line(wrist_x, wrist_y, pinky_mcp_x, pinky_mcp_y)
-
+      line(index_finger_mcp_x, index_finger_mcp_y, middle_finger_mcp_x, middle_finger_mcp_y);
+      line(middle_finger_mcp_x, middle_finger_mcp_y, ring_finger_mcp_x, ring_finger_mcp_y);
+      line(ring_finger_mcp_x, ring_finger_mcp_y, pinky_mcp_x, pinky_mcp_y);
+      line(wrist_x, wrist_y, pinky_mcp_x, pinky_mcp_y);
+      line(wrist_x, wrist_y, middle_finger_mcp_x, middle_finger_mcp_y);
+      line(wrist_x, wrist_y, ring_finger_mcp_x, ring_finger_mcp_y);
+      
     }
 }
 
