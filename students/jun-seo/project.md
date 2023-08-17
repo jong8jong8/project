@@ -313,6 +313,7 @@ function draw() {
 ```
 
 -sketch.js (수정중)
+
 ```js
 let video;
 let handpose;
