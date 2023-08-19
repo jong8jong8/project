@@ -320,9 +320,11 @@ let handpose;
 let landmark;
 let annotation;
 let textbox;
-let button1;
-let button2;
+let trainBt;
+let dataSavingBt;
+let submitBt;
 let key;
+let p1;
 
 let brain;
 
@@ -334,13 +336,18 @@ function setup() {
   textbox = createInput('');
   textbox.position(10,575);
   textbox.size(100);
-
-  button1 = createButton('train');
-  button1.position(125,575);
-  button1.mousePressed(buttonPressed);
-  button2 = createButton('save');
-  button2.position(175,575);
-  button2.mousePressed(dataSaving);
+  
+  submitBt = createButton('submit');
+  submitBt.position(125,575);
+  submitBt.mousePressed(bt);
+  trainBt = createButton('train');
+  trainBt.position(125,575);
+  trainBt.mousePressed(buttonPressed);
+  trainBt.hide();
+  dataSavingBt = createButton('save');
+  dataSavingBt.position(175,575);
+  dataSavingBt.mousePressed(dataSaving);
+  dataSavingBt.hide();
 
   video = createCapture(VIDEO);
   video.hide();
@@ -360,6 +367,16 @@ function setup() {
     debug: true
   }
   brain = ml5.neuralNetwork(Settings);
+}
+
+function bt() {
+submitBt.hide();
+trainBt.show();
+dataSavingBt.show();
+textbox.hide();
+p1 = createP(textbox.value());
+p1.style('font-size','25px');
+p1.position(175,575);
 }
 
 function modelLoaded() {
@@ -494,7 +511,7 @@ function buttonPressed() {
       state = 'waiting';
     }, 5000);  // stop after 10 seconds later (prepare) 
   }, 10000);  // 10 seconds after a key is pressed (collect)
-
+  p1.hide();
 }
 function draw() {
   push();
@@ -504,5 +521,4 @@ function draw() {
   image(video, 0, 0);
   pop();
 }
-
 ```
