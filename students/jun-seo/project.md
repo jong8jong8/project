@@ -3,7 +3,7 @@
 - [k-nearest neighbors (KNN) algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
 ---
--sketch.js
+-`sketch.js`
 ```javascript
 let video;
 let poseNet;
@@ -132,7 +132,7 @@ function draw() {
   } 
 }
 ```
--sketch.js(type2)
+-`sketch.js`(type2)
 ```javascript
 llet video;
 let handpose;
@@ -312,7 +312,7 @@ function draw() {
 
 ```
 
--sketch.js (수정중)
+-`sketch.js` (train but no info)
 
 ```js
 let video;
