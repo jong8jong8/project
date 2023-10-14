@@ -6,9 +6,10 @@
 - [How to save console output to an image](#How-to-save-console-output-to-an-image)
 - [Nvidia driver](#Nvidia-driver)
 - [Python 3.11 upgrade](#python-upgrade)
-- [Google Chrome in Linux](#Google-Chrome-in-Linux)
-- [Microsoft Edge in Linux](#Microsoft-Edge-in-Linux)
-- [Hanseo is very handsome](#Hanseo-is-very-handsome)
+- [Install Google Chrome in Linux](#Install-Google-Chrome-in-Linux)
+- [Install Microsoft Edge in Linux](#Instal-Microsoft-Edge-in-Linux)
+- [Upgrade Google Chrome in Linux](#Upgrade-Google-Chrome-in-Linux)
+- [Upgrade Brave in Linux](#Upgrade-Brave-in-Linux)
 
 ----
 
@@ -126,7 +127,7 @@ python --version           # check the python version is 3.11
 python                     # use python instead of python3.11
 ```
 
-### <a name="Google-Chrome-in-Linux">Google Chrome in Linux</a>
+### <a name="Install-Google-Chrome-in-Linux">Install Google Chrome in Linux</a>
 
 ```sh
 sudo apt update
@@ -165,4 +166,29 @@ microsoft-edge
 ```
 ```sh
 sudo apt remove microsoft-edge-stable
+```
+
+### <a name="Upgrade-Google-Chrome-in-Linux">Upgrade Google Chrome in Linux</a>
+```sh
+sudo apt-get update
+```
+```sh
+sudo apt-get --only-upgrade install google-chrome-stable
+```
+
+### <a name="Upgrade-Brave-in-Linux">Upgrade Brave in Linux</a>
+```sh
+sudo apt install curl
+```
+```sh
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+```
+```sh
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+```
+```sh
+sudo apt update
+```
+```sh
+sudo apt install brave-browser
 ```
