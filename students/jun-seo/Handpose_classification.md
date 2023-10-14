@@ -7,29 +7,15 @@
   <head>
     <title>ml5.js 연습</title>
     <meta charset="utf-8">
-    <!-- p5 -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
-    <!-- ml5 -->
     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
   </head>
 
   <body>
-    <h1>Getting Started</h1>
-    <script>
-      // Your JavaScript code will go here
-      // open up your console - if everything loaded properly you should see the latest ml5 version
-      console.log('ml5 version:', ml5.version);
-    
-      // We use p5.js with ml5.js
-      function setup() {
-        createCanvas(400, 400);
-      }
-
-      function draw() {
-        background(200);
-      }
-    </script>
+    <h1>Handpose prediction with Handpose and ml5.neuralNetwork</h1>
+    <script src="sketch.js"></script>
   </body>
 </html>
 ```
