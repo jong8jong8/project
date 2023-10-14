@@ -1,5 +1,5 @@
 #가위바위보
--`index.html`
+- `index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -33,6 +33,6 @@
 </html>
 ```
 
--`sketch.js`(custom train)
+- `sketch.js`(custom train)
 ```js
 ```
