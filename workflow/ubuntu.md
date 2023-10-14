@@ -1,13 +1,13 @@
 # [Ubuntu](https://ubuntu.com/)
 - [Open terminal](#Open-terminal)
+- [Install Google Chrome in Linux](#Install-Google-Chrome-in-Linux)
 - [Install Brave in Linux](#Install-Brave-in-Linux)
+- [Install Microsoft Edge in Linux](#Instal-Microsoft-Edge-in-Linux)
 - [Install VScode in Linux](#Install-VScode-in-Linux)
 - [Remove VScode in Linux](#Remove-VScode-in-Linux)
 - [How to save console output to an image](#How-to-save-console-output-to-an-image)
 - [Nvidia driver](#Nvidia-driver)
 - [Python 3.11 upgrade](#python-upgrade)
-- [Install Google Chrome in Linux](#Install-Google-Chrome-in-Linux)
-- [Install Microsoft Edge in Linux](#Instal-Microsoft-Edge-in-Linux)
 - [Upgrade Google Chrome in Linux](#Upgrade-Google-Chrome-in-Linux)
 - [Upgrade Brave in Linux](#Upgrade-Brave-in-Linux)
 
@@ -18,6 +18,23 @@
 
 `Ctrl` + `Alt` + `T`
 
+### <a name="Install-Google-Chrome-in-Linux">Install Google Chrome in Linux</a>
+
+```sh
+sudo apt update
+```
+```sh
+sudo apt install wget
+```
+```sh
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+```sh
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+```sh
+google-chrome
+```
 
 ### <a name="Install-Brave-in-Linux">Install Brave in Linux</a>
 
@@ -39,6 +56,29 @@ sudo apt update
 
 ```sh
 sudo apt install brave-browser
+```
+
+### <a name="Install-Microsoft-Edge-in-Linux">Install Microsoft Edge in Linux</a>
+- You need a MS Account.
+
+```sh
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+```
+```sh
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge-dev.list
+```
+```sh
+sudo apt update
+```
+```sh
+sudo apt install microsoft-edge-dev
+```
+```sh
+microsoft-edge
+```
+```sh
+sudo apt remove microsoft-edge-stable
 ```
 
 ### <a name="Install-VScode-in-Linux">Install VScode in Linux</a>
@@ -125,47 +165,6 @@ alias python=python3.11
 source .bashrc             # apply the modified .bashrc 
 python --version           # check the python version is 3.11 
 python                     # use python instead of python3.11
-```
-
-### <a name="Install-Google-Chrome-in-Linux">Install Google Chrome in Linux</a>
-
-```sh
-sudo apt update
-```
-```sh
-sudo apt install wget
-```
-```sh
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-```
-```sh
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-```
-```sh
-google-chrome
-```
-
-### <a name="Microsoft-Edge-in-Linux">Microsoft Edge in Linux</a>
-- You need a MS Account.
-
-```sh
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
-```
-```sh
-echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge-dev.list
-```
-```sh
-sudo apt update
-```
-```sh
-sudo apt install microsoft-edge-dev
-```
-```sh
-microsoft-edge
-```
-```sh
-sudo apt remove microsoft-edge-stable
 ```
 
 ### <a name="Upgrade-Google-Chrome-in-Linux">Upgrade Google Chrome in Linux</a>
