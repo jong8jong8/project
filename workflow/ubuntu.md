@@ -23,15 +23,19 @@
 ```sh
 sudo apt update
 ```
+
 ```sh
 sudo apt install wget
 ```
+
 ```sh
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
+
 ```sh
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+
 ```sh
 google-chrome
 ```
@@ -65,18 +69,23 @@ sudo apt install brave-browser
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 ```
+
 ```sh
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge-dev.list
 ```
+
 ```sh
 sudo apt update
 ```
+
 ```sh
 sudo apt install microsoft-edge-dev
 ```
+
 ```sh
 microsoft-edge
 ```
+
 ```sh
 sudo apt remove microsoft-edge-stable
 ```
@@ -171,6 +180,12 @@ python                     # use python instead of python3.11
 ```sh
 sudo apt-get update
 ```
+
+```sh
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+```
+
 ```sh
 sudo apt-get --only-upgrade install google-chrome-stable
 ```
@@ -179,15 +194,19 @@ sudo apt-get --only-upgrade install google-chrome-stable
 ```sh
 sudo apt install curl
 ```
+
 ```sh
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 ```
+
 ```sh
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 ```
+
 ```sh
 sudo apt update
 ```
+
 ```sh
 sudo apt install brave-browser
 ```
