@@ -99,8 +99,3 @@ Button(root, text="Insert the lyrics", command=edit).pack(side="right")
 root.mainloop()
 
 ```
----
-#python youtube mp3 downloader
--`main.py`
-```python
-```
