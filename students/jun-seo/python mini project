@@ -1,7 +1,7 @@
 # python mp3 lyrics editor
 ---
--`main.py`
-```python
+- `main.py`
+```py
 from tkinter import *
 from tkinter import filedialog
 import tkinter.ttk as ttk
