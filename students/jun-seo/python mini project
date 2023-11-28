@@ -1,3 +1,24 @@
+# 가위바위보
+---
+- `index.html`
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ml5.js 연습</title>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
+  </head>
+
+  <body>
+    <h1>Handpose prediction with Handpose and ml5.neuralNetwork</h1>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+```
 # python mp3 lyrics editor
 ---
 - `main.py`
