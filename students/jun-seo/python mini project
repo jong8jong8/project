@@ -1,6 +1,5 @@
-#python mp3 lyrics editor
+# python mp3 lyrics editor
 ---
-
 -`main.py`
 ```python
 from tkinter import *
