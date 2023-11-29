@@ -28,6 +28,5 @@
 ---
 
 :books: [Github Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
-
 :books: [Basic Github Markdown in Korean](https://hongsii.github.io/2017/06/01/How-to-Write-with-Markdown/)
  
